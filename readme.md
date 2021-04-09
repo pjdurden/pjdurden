@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/A6bWGFl.gif"/></p>
+<p align="center"><img src="https://github.com/pjdurden/pjdurden/blob/main/assets/helloworld.gif"/></p>
 
 ## Prajjwal Chittori (Him/He) ⚡
 - 🔭 Computer Science Engineering Student at Delhi Technological University.
