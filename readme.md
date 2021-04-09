@@ -33,23 +33,25 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
 
 ### Database Systems :bar_chart:
 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/mysql.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/mongodb.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/influxdb.svg" />&nbsp;&nbsp;
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/couchdb.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/MYSQL.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/MONGODB.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/oracle.png" />&nbsp;&nbsp;
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/SQLITE.jfif" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/msaccess.jfif" />&nbsp; 
 
 ### Tools and Frameworks :hammer:
 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/pytorch.svg" />&nbsp;
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/tensorflow.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/opencv.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/docker.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/travisci.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/git.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/inkscape.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/gimp.svg" />&nbsp;  
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/adobephotoshop.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/bootstrap.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/pytorch.svg" />&nbsp;
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/sublime%20text.png" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/opencv.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/nodejs.webp" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/googlecolab.png" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/git.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/flutter%20icon.png" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/django.jpg" />&nbsp;  
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/android%20studio.png" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/adobephotoshop.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/LINUX.png" />&nbsp; 
 
 ### Notable Projects :trophy:
 
