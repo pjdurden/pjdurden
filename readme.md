@@ -72,7 +72,7 @@ Here's my favourite song for you :trumpet:- [**Feeling Good** by **Nina Simone**
  
 <br></details>
 <!-- footer --!>
-<p align="center"><a href="http://hits.dwyl.com/pjdurden/dailymotion-player-sdk-android.svg"><img src="http://hits.dwyl.com/pjdurden/dailymotion-player-sdk-android.svg" alt="HitCount"></a></p>
+<p align="center"><a href="http://hits.dwyl.com/pjdurden/public-apis.svg"><img src="http://hits.dwyl.com/pjdurden/public-apis.svg" alt="HitCount"></a></p>
 <p align="center">
     <a id="GitHub" href="https://github.com/pjdurden/"><img width="27px" src="https://thekrishna.in/K-Kraken/img/gh.png" alt="Prajjwal Chittori - GitHub" /></a>
     &nbsp;&nbsp;     
