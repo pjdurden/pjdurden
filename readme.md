@@ -15,19 +15,19 @@
 
 ### Little More About Me  
 
-I love movies 🎥, cooking :ramen:, music :saxophone:	and video games :video_game:. I love meeting new people and learning new things, so please feel free to say hello and share a story with me. I'm good at Leadership, Collaboration and Team Building. Currently working as a C++ programmer Intern at [Codespeedy](https://www.codespeedy.com/). Mentored students regarding topics such as technology, management and diversity at [GirlScript](https://www.girlscript.tech/about). The key joke to my young adult life is that if i want to make my parents laugh i tell them about my future plans. I also love giving contsts (Who doesn't love bugs, non-sensical problem statements and Time limit Exceeded verdicts ). I'm currently focusing :dart: of Artificial Intelligence, Machine Learning(Convolutional Neural Networks) and ofcourse algorithms.
+I love movies 🎥, cooking :ramen:, music :saxophone:	and video games :video_game:. I love meeting new people and learning new things, so please feel free to say hello and share a story with me. I'm good at Leadership, Collaboration and Team Building. Currently working as a C++ programmer Intern at [Codespeedy](https://www.codespeedy.com/). Mentored students regarding topics such as technology, management and diversity at [GirlScript](https://www.girlscript.tech/about). The key joke to my young adult life is that if i want to make my parents laugh i tell them about my future plans. I also love giving competetive programming (Who doesn't love bugs, non-sensical problem statements and Time limit Exceeded verdicts ). I'm currently focusing :dart: of Artificial Intelligence, Machine Learning(Convolutional Neural Networks) and ofcourse algorithms.
 
-Here's my favourite song for you :trumpet:- [**Feeling Good** by **Nina Simone**.](https://youtube.com/watch?v=BNMKGYiJpvg)
+Here's one of my favorite movies of all time 🎵:- [**Annie Hall** by **Woody Allen**.](https://www.youtube.com/watch?v=OqVgCfZX-yE)
 
 ### Programming Languages :scroll:
 
+<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/cplusplus.svg" />&nbsp;
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/python.svg" />&nbsp; 
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/java.svg" />&nbsp;
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/javascript.svg" />&nbsp; 
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/html5.svg" />&nbsp; 
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/css3.svg" />&nbsp; 
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/php.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/cplusplus.svg" />&nbsp;
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/gnubash.svg" />&nbsp; 
 
 ### Database Systems :bar_chart:
@@ -43,32 +43,34 @@ Here's my favourite song for you :trumpet:- [**Feeling Good** by **Nina Simone**
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/tensorflow.svg" />&nbsp; 
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/opencv.svg" />&nbsp; 
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/docker.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/kubernetes.svg" />&nbsp;
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/apachespark.svg" />&nbsp;
-<img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/flask.svg" />&nbsp;
-<img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/jenkins.svg" />&nbsp;
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/travisci.svg" />&nbsp;
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/grafana.svg" />&nbsp; 
+<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/travisci.svg" />&nbsp; 
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/git.svg" />&nbsp; 
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/inkscape.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/gimp.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/adobexd.svg" />&nbsp; 
+<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/gimp.svg" />&nbsp;  
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/adobephotoshop.svg" />&nbsp; 
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/bootstrap.svg" />&nbsp; 
 
+### Notable Projects :trophy:
+
+1. **[6502 processor Emulator](https://github.com/pjdurden/friendly-neighbourhood-6502)**  
+2. **[Vidzz Video Sharing Android Application](https://github.com/pjdurden/Vidzz) **
+3. **[Video Content Analysis using Machine Learning(YOLO)](https://github.com/pjdurden/Bellman-Ford-Visualization)**
+4. **[AI TicTacToe game using Sockets with Leaderboard](https://github.com/pjdurden/Tic-Tac-Toe-Socket)**
+5. **[Visualization of Bellman Ford using OpenGL](https://github.com/pjdurden/Bellman-Ford-Visualization)**
+6. **[Memo saving and Sharing Android Application](https://github.com/pjdurden/memo-)**
+7. **[Calculator in Material Design Dark Theme (Flutter)](https://github.com/pjdurden/Calculate-flutter)**
+
+
 ### Honors and Award :trophy:
 
-1. **Smart India Finalist 2020 - Software Edition**
-   - :round_pushpin:&nbsp;&nbsp;**All India Council for Technical Education (AICTE)**
-   - Shortlisted for Problem Statement: RK59 by Bureau of Police Research & Development. 
-2. **First Place - Daksh Smart Finance Hackathon (2020)**
-   - Won the First Place in a 36-hour Hackathon conducted by the **Shanmugha Arts, Science, Technology & Research Academy (SASTRA), Tamil Nadu**.
-3. **Fourth Place - St. Peter's Hackathon (2019)**
-   - Won the Fourth Place in a 12-hour Hackathon of over 100+ participants conducted by the **St. Peter's College of Engineering and Technology, Chennai.**
-4. **Third Place - SSN IEEE Hack & Tackle (2019)**
-   - Won the Third Place in a 24-hour Hackathon of over 300+ participants conducted by the IEEE Chapter of **SSN College of Engineering, Chennai**.
-5. **Founder and Lead - Active Specialized Support Group (ASSG)**
-   - It was started as an effort to combat a lack of technical diversity within our college. We also run weekly workshops for students from all departments across the college
+1. **Leetcode 3 Star Programmer [Pjdope](https://leetcode.com/Pjdope/)**  
+2. **CodeChef Highest Rating 1854 [pjdurden](https://www.codechef.com/users/pjdurden)**
+   - February Challenge 2021 Div 2: Rank - 52 ( College Rank 2)
+   - January Challenge 2021 Div 3: Rank - 439 (College Rank 12)
+   - CodeChef push_back(2): Rank - 382 (College Rank 6)
+   - January Lunchtime 2021 Div 2: Rank - 636
+3. **Cleared Facebook Hacker Cup (2020) Qualification Round**
+4. **Gold Medal, Young Scientist Talent Test (2017)**
  
 <br></details>
 <!-- footer --!>
