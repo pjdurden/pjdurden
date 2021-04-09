@@ -89,7 +89,7 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
     &nbsp;&nbsp;     
     <a id="LinkedIn" href="https://www.linkedin.com/in/prajjwal-chittori/"><img width="27px" src="https://github.com/pjdurden/pjdurden/blob/main/assets/linkedin%20new.png" alt="Prajjwal Chittori - LinkedIn" /></a> 
     &nbsp;&nbsp;
-   <a id="Mail" href="mailto:prajjwalchittori1@gmail.com"><img width="27px" src="https://github.com/pjdurden/pjdurden/blob/main/assets/email.jfif" alt="Prajjwal Chittori - Mail"/></a>
+   <a id="Mail" href="mailto:prajjwalchittori1@gmail.com"><img width="27px" src="https://github.com/pjdurden/pjdurden/blob/main/assets/email%20new.png" alt="Prajjwal Chittori - Mail"/></a>
 </p>
 <img src="https://imgur.com/rilHVxA.png"/>
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pjdurden&langs_count=5&show_icons=true&theme=dark&hide=C,CUDA)](https://github.com/pjdurden)
