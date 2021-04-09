@@ -21,13 +21,14 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
 
 ### Programming Languages :scroll:
 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/cplusplus.svg" />&nbsp;
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/python.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/java.svg" />&nbsp;
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/javascript.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/html5.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/css3.svg" />&nbsp; 
-<img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/php.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/C%2B%2B.svg" />&nbsp;
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/Java.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/python.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/JavaScript.svg" />&nbsp;
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/Php.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/Swift.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/css3.svg" />&nbsp; 
+<img height="32" width="32" src="https://github.com/pjdurden/pjdurden/blob/main/assets/kotlin.jfif" />&nbsp; 
 <img height="32" width="32" src="https://cdn.thekrishna.in/img/icon/gnubash.svg" />&nbsp; 
 
 ### Database Systems :bar_chart:
