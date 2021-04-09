@@ -85,11 +85,11 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
 <!-- footer --!>
 <p align="center"><a href="http://hits.dwyl.com/pjdurden/public-apis.svg"><img src="http://hits.dwyl.com/pjdurden/public-apis.svg" alt="HitCount"></a></p>
 <p align="center">
-    <a id="GitHub" href="https://github.com/pjdurden/"><img width="27px" src="https://thekrishna.in/K-Kraken/img/gh.png" alt="Prajjwal Chittori - GitHub" /></a>
+    <a id="GitHub" href="https://github.com/pjdurden/"><img width="27px" src="https://github.com/pjdurden/pjdurden/blob/main/assets/github%20icon.png" alt="Prajjwal Chittori - GitHub" /></a>
     &nbsp;&nbsp;     
-    <a id="LinkedIn" href="https://www.linkedin.com/in/prajjwal-chittori/"><img width="27px" src="https://thekrishna.in/K-Kraken/img/linkedin.png" alt="Prajjwal Chittori - LinkedIn" /></a> 
+    <a id="LinkedIn" href="https://www.linkedin.com/in/prajjwal-chittori/"><img width="27px" src="https://github.com/pjdurden/pjdurden/blob/main/assets/linkedin.png" alt="Prajjwal Chittori - LinkedIn" /></a> 
     &nbsp;&nbsp;
-   <a id="Mail" href="mailto:prajjwalchittori1@gmail.com"><img width="27px" src="https://thekrishna.in/K-Kraken/img/mail.png?" alt="Prajjwal Chittori - Mail"/></a>
+   <a id="Mail" href="mailto:prajjwalchittori1@gmail.com"><img width="27px" src="https://github.com/pjdurden/pjdurden/blob/main/assets/email.jfif" alt="Prajjwal Chittori - Mail"/></a>
 </p>
 <img src="https://imgur.com/rilHVxA.png"/>
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pjdurden&langs_count=5&show_icons=true&theme=dark&hide=C,CUDA)](https://github.com/pjdurden)
