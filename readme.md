@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.imgur.com/A6bWGFl.gif"/></p>
 
-## Prajjwal Chittori (Him/He) 🌻
+## Prajjwal Chittori (Him/He) ⚡
 - 🔭 Computer Science Engineering Student at Delhi Technological University.
 - 👯 I study about technologies that interest me and solve programming problems.
 - 💬 Let's talk about Language Technologies, Data Structes and Algorithms, Machine Learning , Woody Allen.
@@ -9,7 +9,7 @@
 
 <details>
 <summary>
-  ##Click Here To Know More##
+  <b> Click Here To Know More </b>
 </summary>
 
 
