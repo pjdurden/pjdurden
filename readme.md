@@ -74,8 +74,10 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
  
 <br></details>
 <p float="left">
-  <img align = "center" src = "https://github-readme-stats.vercel.app/api?username=pjdurden&show_icons=true&theme=dark" width="150"/><img align = "center" src = "https://github-readme-stats.vercel.app/api/top-langs/?username=pjdurden&langs_count=5&show_icons=true&theme=dark&hide=C,CUDA" />
+  <img align = "middle" src = "https://github-readme-stats.vercel.app/api?username=pjdurden&show_icons=true&theme=dark" width="150"/><img align = "middle" src = "https://github-readme-stats.vercel.app/api/top-langs/?username=pjdurden&langs_count=5&show_icons=true&theme=dark&hide=C,CUDA" />
   </p>
+  
+  
 
 <!-- footer --!>
 <p align="center"><a href="http://hits.dwyl.com/pjdurden/public-apis.svg"><img src="http://hits.dwyl.com/pjdurden/public-apis.svg" alt="HitCount"></a></p>
