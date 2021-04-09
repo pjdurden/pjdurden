@@ -53,7 +53,7 @@ Here's one of my favorite movies of all time 🎵:- [**Annie Hall** by **Woody A
 ### Notable Projects :trophy:
 
 1. **[6502 processor Emulator](https://github.com/pjdurden/friendly-neighbourhood-6502)**  
-2. **[Vidzz Video Sharing Android Application](https://github.com/pjdurden/Vidzz) **
+2. **[Vidzz Video Sharing Android Application](https://github.com/pjdurden/Vidzz)**
 3. **[Video Content Analysis using Machine Learning(YOLO)](https://github.com/pjdurden/Bellman-Ford-Visualization)**
 4. **[AI TicTacToe game using Sockets with Leaderboard](https://github.com/pjdurden/Tic-Tac-Toe-Socket)**
 5. **[Visualization of Bellman Ford using OpenGL](https://github.com/pjdurden/Bellman-Ford-Visualization)**
