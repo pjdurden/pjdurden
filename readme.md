@@ -3,8 +3,8 @@
 ## Prajjwal Chittori (Him/He) ⚡
 - 🔭 Computer Science Engineering Student at Delhi Technological University.
 - 👯 I study about technologies that interest me and solve programming problems.
-- 💬 Let's talk about Language Technologies, Data Structes and Algorithms, Machine Learning , Woody Allen.
-- 📫 **How to reach me**: [LinkedIn](https://www.linkedin.com/in/prajjwal-chittori/)
+- 💬 Let's talk about Language Technologies, Data Structures and Algorithms, Machine Learning , Woody Allen.
+- 📫 **How to reach me**: [LinkedIn](https://www.linkedin.com/in/prajjwal-chittori/) [instagram](https://www.instagram.com/prajjwal632/) [Facebook](https://www.facebook.com/prajjwal.chittori.7/)
 - ⚡ **fact about me**: I am a [chess](https://lichess.org/@/Prajjwal1/perf/classical) fanatic.
 
 <details>
@@ -15,7 +15,7 @@
 
 ### Little More About Me  
 
-I love movies 🎥, cooking :ramen:, music :saxophone:	and video games :video_game:. I love meeting new people and learning new things, so please feel free to say hello and share a story with me. I'm good at Leadership, Collaboration and Team Building. Currently working as a C++ programmer Intern at [Codespeedy](https://www.codespeedy.com/). Mentored students regarding topics such as technology, management and diversity at [GirlScript](https://www.girlscript.tech/about). The key joke to my young adult life is that if i want to make my parents laugh i tell them about my future plans. I also love giving competetive programming (Who doesn't love bugs, non-sensical problem statements and Time limit Exceeded verdicts ). I'm currently focusing :dart: of Artificial Intelligence, Machine Learning(Convolutional Neural Networks) and ofcourse algorithms.
+I love movies 🎥, cooking :ramen:, music :saxophone:, Sketching 🖌️	and video games :video_game:. I love meeting new people and learning new things, so please feel free to say hello and share a story with me. I'm good at Leadership, Collaboration and Team Building. Currently working as a C++ programmer Intern at [Codespeedy](https://www.codespeedy.com/). Mentored students regarding topics such as technology, management and diversity at [GirlScript](https://www.girlscript.tech/about). The key joke to my young adult life is that if i want to make my parents laugh i tell them about my future plans. I also love giving competetive programming (Who doesn't love bugs, non-sensical problem statements and Time limit Exceeded verdicts ). I'm currently focusing :dart: of Artificial Intelligence, Machine Learning(Convolutional Neural Networks) and ofcourse algorithms.
 
 Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody Allen**.](https://www.youtube.com/watch?v=OqVgCfZX-yE)
 
