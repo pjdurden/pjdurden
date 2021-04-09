@@ -79,7 +79,7 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
 <a href= "https://github.com/anuraghazra/github-readme-stats">
   <img align = " center " src = " https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats " />
 </a>
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pjdurden&langs_count=5&show_icons=true&theme=dark&hide=C,CUDA)](https://github.com/pjdurden)
+
 <!-- footer --!>
 <p align="center"><a href="http://hits.dwyl.com/pjdurden/public-apis.svg"><img src="http://hits.dwyl.com/pjdurden/public-apis.svg" alt="HitCount"></a></p>
 <p align="center">
@@ -90,3 +90,4 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
    <a id="Mail" href="mailto:prajjwalchittori1@gmail.com"><img width="27px" src="https://thekrishna.in/K-Kraken/img/mail.png?" alt="Prajjwal Chittori - Mail"/></a>
 </p>
 <img src="https://imgur.com/rilHVxA.png"/>
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pjdurden&langs_count=5&show_icons=true&theme=dark&hide=C,CUDA)](https://github.com/pjdurden)
