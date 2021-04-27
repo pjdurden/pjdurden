@@ -72,8 +72,9 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
    - January Challenge 2021 Div 3: Rank - 439 (College Rank 12)
    - CodeChef push_back(2): Rank - 382 (College Rank 6)
    - January Lunchtime 2021 Div 2: Rank - 636
-3. **Cleared Facebook Hacker Cup (2020) Qualification Round**
-4. **Gold Medal, Young Scientist Talent Test (2017)**
+3. **[Code-A-Thon](https://dare2compete.com/hackathon/1022-code-a-thon-code-a-thon/details) Organised by Furenergy GRID: Rank - 5 (College Rank 1)**
+4. **Cleared Facebook Hacker Cup (2020) Qualification Round**
+5. **Gold Medal, Young Scientist Talent Test (2017)**
  
 <br></details>
 <p float="left" align="middle" height="300" width="400">
