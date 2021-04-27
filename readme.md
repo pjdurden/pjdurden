@@ -89,8 +89,10 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
 
 <!-- footer --!>
 <!---<p align="center"><a href="http://hits.dwyl.com/pjdurden/public-apis.svg"><img src="http://hits.dwyl.com/pjdurden/public-apis.svg" alt="HitCount"></a></p>--->
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/pjdurden) 
-
+<p align="center">
+ <a href="https://github.com/pjdurden?tab=repositories"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions"></a>
+&nbsp;&nbsp;
+  
 <p align="center">
     <a id="GitHub" href="https://github.com/pjdurden/"><img width="27px" src="https://github.com/pjdurden/pjdurden/blob/main/assets/github%20icon.png" alt="Prajjwal Chittori - GitHub" /></a>
     &nbsp;&nbsp;     
