@@ -66,15 +66,18 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
 
 ### Honors and Award :trophy:
 
-1. **Leetcode 3 Star Programmer [Pjdope](https://leetcode.com/Pjdope/)**  
-2. **CodeChef Highest Rating 1854 [pjdurden](https://www.codechef.com/users/pjdurden)**
+
+1. **Expert at Codeforces [pjdurden](https://codeforces.com/profile/pjdurden)**
+2. **CodeChef Highest Rating 1890 [pjdurden](https://www.codechef.com/users/pjdurden)**
    - February Challenge 2021 Div 2: Rank - 52 ( College Rank 2)
    - January Challenge 2021 Div 3: Rank - 439 (College Rank 12)
    - CodeChef push_back(2): Rank - 382 (College Rank 6)
    - January Lunchtime 2021 Div 2: Rank - 636
-3. **[Code-A-Thon](https://dare2compete.com/hackathon/1022-code-a-thon-code-a-thon/details) Organised by Furenergy GRID: Rank - 5 (College Rank 1)**
-4. **Cleared Facebook Hacker Cup (2020) Qualification Round**
-5. **Gold Medal, Young Scientist Talent Test (2017)**
+3. **Leetcode 3 Star Programmer(Highest Rating 1679) [Pjdope](https://leetcode.com/Pjdope/)**  
+4. **[Code-A-Thon](https://dare2compete.com/hackathon/1022-code-a-thon-code-a-thon/details) Organised by Furenergy GRID: Rank - 5 (College Rank 1)**
+5. **Google Kickstart Round B 2021: Rank - 1476**
+6. **Cleared Facebook Hacker Cup (2020) Qualification Round**
+7. **Gold Medal, Young Scientist Talent Test (2017)**
  
 <br></details>
 <p float="left" align="middle" height="300" width="400">
