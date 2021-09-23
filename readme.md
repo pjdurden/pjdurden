@@ -80,7 +80,7 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
 7. **Gold Medal, Young Scientist Talent Test (2017)**
  
 <br></details>
-<p float="left" align="middle" height="300" width="400">
+<p float="left" align="middle" height="600" width="400">
   <img  src = "https://github-readme-stats.vercel.app/api?username=pjdurden&show_icons=true&hide=contribs,prs"/>
   </p>
   <p float="left" align="middle" height="300" width="400">
