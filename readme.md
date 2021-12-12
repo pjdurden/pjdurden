@@ -1,7 +1,7 @@
 <p align="center"><img src="https://github.com/pjdurden/pjdurden/blob/main/assets/helloworld.gif"/></p>
 
 ## Prajjwal Chittori (Him/He) ⚡
-- 🔭 Computer Science Engineering Student at Delhi Technological University, Currently working as SDE Intern at Stader Labs(https://staderlabs.com/).
+- 🔭 Computer Science Engineering Student at Delhi Technological University, Currently working as SDE Intern at [Stader Labs](https://staderlabs.com/).
 - 👯 I study about technologies that interest me and solve programming problems.
 - 💬 Let's talk about Language Technologies, Data Structures and Algorithms, Machine Learning , Woody Allen.
 - 📫 **How to reach me**: [LinkedIn](https://www.linkedin.com/in/prajjwal-chittori/) [instagram](https://www.instagram.com/prajjwal632/) [Facebook](https://www.facebook.com/prajjwal.chittori.7/)
