@@ -81,7 +81,7 @@ Here's one of my favorite movies of all time 🎥:- [**Annie Hall** by **Woody A
  
 <br></details>
 <p float="left" align="middle" height="400" width="400">
-  <img  src = "https://github-readme-stats.vercel.app/api?username=pjdurden&show_icons=true,prs"/>
+  <img  src = "https://github-readme-stats.vercel.app/api?username=pjdurden&show_icons=true&rank_icon=github,prs"/>
   </p>
   <p float="left" align="middle" height="300" width="400">
   <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=pjdurden&langs_count=5&show_icons=true&rank_icon=github" />
