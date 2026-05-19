@@ -1,10 +1,10 @@
 <p align="center"><img src="https://github.com/pjdurden/pjdurden/blob/main/assets/helloworld.gif"/></p>
 
 ## Prajjwal Chittori (Him/He) ⚡
-- 🔭 Computer Science Engineering Graduate from Delhi Technological University, Currently working as SDE at [Visa](https://www.visa.co.in/).
+- 🔭 Computer Science Engineering Graduate from Delhi Technological University, Currently working as Senior Backend Engineer at [ether.fi](https://www.ether.fi/). Previously Senior SDE at [Visa](https://www.visa.co.in/).
 - 👯 I study about technologies that interest me and solve programming problems.
 - 💬 Let's talk about Language Technologies, Data Structures and Algorithms, Machine Learning , Woody Allen.
-- 📫 **How to reach me**: [LinkedIn](https://www.linkedin.com/in/prajjwal-chittori/) [instagram](https://www.instagram.com/prajjwal632/) [Facebook](https://www.facebook.com/prajjwal.chittori.7/)
+- 📫 **How to reach me**: [LinkedIn](https://www.linkedin.com/in/prajjwal-chittori/) [instagram]([https://www.instagram.com/prajjwal632/](https://www.instagram.com/prajjwalsinghchittori/)) [Facebook](https://www.facebook.com/prajjwal.chittori.7/)
 - ⚡ **fact about me**: I am a [chess](https://lichess.org/@/Prajjwal1/perf/classical) fanatic.
 
 <details>
