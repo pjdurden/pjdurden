@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/prajjwal-chittori/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://codeforces.com/profile/pjdurden"><img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=flat&logo=codeforces&logoColor=white" alt="Codeforces Expert"/></a>
-  <a href="mailto:prajjwalchittori1@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:prajjwalchittoriwork@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
@@ -125,10 +125,3 @@ Achieved **Codeforces Expert** during university (pre-2022, before AI coding ass
 - **[Code-A-Thon](https://dare2compete.com/hackathon/1022-code-a-thon-code-a-thon/details)** — Rank 5 (College Rank 1)
 - Cleared the Facebook Hacker Cup Qualification Round (2020); Google Kick Start Round B (2021).
 - Mentored 300+ students in algorithms and software engineering through [GirlScript](https://www.girlscript.tech/about).
-
----
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=pjdurden&show_icons=true&rank_icon=github&theme=graywhite&hide_border=true&card_width=420"/>
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pjdurden&langs_count=8&layout=compact&theme=graywhite&hide_border=true"/>
-</p>
