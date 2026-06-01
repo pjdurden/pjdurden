@@ -24,7 +24,7 @@ Payments-rails-plus-crypto is a rare combo. I've shipped on both sides of it.
 - 🔭 **Now:** Senior Backend Engineer @ **ether.fi** — Cash (card) & Vault products
 - 🧱 **Stack I live in:** Go, Rust, Solidity, TypeScript, Java/Spring, Ethereum/EVM, EigenLayer, Kafka, PostgreSQL, Redis
 - 🏆 **Codeforces Expert** — earned *before* the ChatGPT / AI-assistant era. Pure, unassisted algorithmic problem-solving.
-- 🎓 B.Tech Computer Science, **Delhi Technological University (DTU)**
+- 🎓 B.Tech Computer Science — **Delhi College of Engineering (DCE)**, now Delhi Technological University (DTU)
 - 💬 Ask me about: liquid staking, restaking, card settlement, cross-border payments, stablecoins, and squeezing gas costs out of smart contracts.
 
 ---
@@ -48,7 +48,7 @@ Worked across **traditional cross-border payments** and Visa's **stablecoin / cr
 - `Java` · `Spring Boot` · `Solidity` · `Rust` · `RabbitMQ` · `Hazelcast` · `Docker/K8s`
 
 ### 🌱 Stader Labs — *Software Engineer (Founding Team)* `2021 – 2022`
-Joined as an **intern in my final years at DTU** and grew into a founding member of a **~7-person team** building a multi-chain **liquid-staking protocol**.
+Joined as an **intern in my final years at Delhi College of Engineering (DCE / DTU)** and grew into a founding member of a **~7-person team** building a multi-chain **liquid-staking protocol**.
 - Built **Rust / CosmWasm smart contracts** powering liquidity pools that scaled to **$1B+ in staked assets** across multiple chains.
 - Did the **gas-fee analysis & optimization** work — benchmarking storage and swap costs on Terra/CosmWasm to keep contract execution cheap at scale.
 - Built a **validator analytics platform** monitoring 1M+ nodes (React + MongoDB + Ethereum APIs) and APR dashboards.
