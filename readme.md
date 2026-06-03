@@ -21,7 +21,7 @@
 
 Backend engineer specializing in the intersection of crypto infrastructure and traditional payments — systems where on-chain state must reconcile with real-world money movement to the cent.
 
-My work spans both sides of that seam: founding-team engineer at a liquid-staking protocol that scaled past **$1B in staked assets**, four years on **cross-border payments and the stablecoin initiative at Visa**, and now **card and vault products at [ether.fi](https://www.ether.fi/)** — a non-custodial Visa crypto card built on liquid-restaking infrastructure.
+My work spans both sides of that seam: founding-team engineer at a liquid-staking protocol that scaled past **$500M+ in staked assets**, four years on **cross-border payments and the stablecoin initiative at Visa**, and now **card and vault products at [ether.fi](https://www.ether.fi/)** — a non-custodial Visa crypto card built on liquid-restaking infrastructure.
 
 - **Currently:** Senior Backend Engineer at ether.fi — Cash (card) & Vault products
 - **Core stack:** Go, Rust, Solidity, TypeScript, Java/Spring, Ethereum/EVM, EigenLayer, Kafka, PostgreSQL, Redis
@@ -61,7 +61,7 @@ Worked across traditional cross-border payments and Visa's stablecoin / crypto i
 
 Joined as an intern during the final years of my degree at Delhi College of Engineering and grew into a founding member of a ~7-person team building a multi-chain liquid-staking protocol.
 
-- Built Rust / CosmWasm smart contracts powering liquidity pools that scaled past $1B in staked assets across multiple chains.
+- Built Rust / CosmWasm smart contracts powering liquidity pools that scaled past $500M+ in staked assets across multiple chains.
 - Led gas-fee analysis and optimization — benchmarking storage and swap costs on Terra/CosmWasm to keep contract execution economical at scale.
 - Built a validator analytics platform monitoring 1M+ nodes (React, MongoDB, Ethereum APIs) and APR dashboards.
 - Designed cross-chain architecture and on-chain/off-chain synchronization pipelines.
