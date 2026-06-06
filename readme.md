@@ -26,7 +26,7 @@ My work spans both sides of that seam: founding-team engineer at a liquid-stakin
 - **Currently:** Senior Backend Engineer at ether.fi — Cash (card) & Vault products
 - **Core stack:** Go, Rust, Solidity, TypeScript, Java/Spring, Ethereum/EVM, EigenLayer, Kafka, PostgreSQL, Redis
 - **Education:** B.Tech, Computer Science — Delhi College of Engineering (now Delhi Technological University)
-- **Focus areas:** liquid staking & restaking, card settlement, cross-border payments, stablecoins, smart-contract gas optimization
+- **Focus areas:** liquid staking & restaking, card settlement, cross-border payments, stablecoins, smart-contract gas optimization, decentralized / distributed ML training (DiLoCo)
 
 ---
 
@@ -70,10 +70,19 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 ---
 
-## Selected Open-Source Work
+## OSS and Research
+
+**Research**
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20574905.svg)](https://doi.org/10.5281/zenodo.20574905)
+
+**StragglerPolicy: Straggler-Aware Elastic Membership for Decentralized Training** *(Zenodo, 2026)* — a zero-GPU discrete-event simulator of DiLoCo-style decentralized ML training plus a straggler-aware membership policy for *slow-but-alive* nodes that existing decentralized-training stacks don't handle. **4.59× faster** than the baseline on a persistent-straggler scenario, validated against a `torch.distributed`/gloo DiLoCo loop. [Paper](https://doi.org/10.5281/zenodo.20574905) · [Code — pjdurden/churn](https://github.com/pjdurden/churn)
+
+**Open source**
 
 | Project | Description |
 |---|---|
+| [churn — StragglerPolicy](https://github.com/pjdurden/churn) | Deterministic discrete-event simulator of elastic-membership decentralized ML training, plus the straggler-aware membership policy behind the paper above. |
 | [CoinSwap (CosmWasm + Terraswap)](https://github.com/pjdurden/CoinSwap-using-Cosmwasm-and-Terraswap) | DEX swap contract for LUNA/UST/CW20 tokens, with a gas-fee analysis tool for the Terra blockchain. |
 | [Gas-Fee Benchmark (cw-storage-plus / Terraswap)](https://github.com/pjdurden/Gas_analysis_cw_storage_plus_terraswap) | Benchmarking contract measuring gas costs of storage patterns on Terra/CosmWasm. |
 | [Solidity Payment System](https://github.com/pjdurden/Solidity_Payment_System) | On-chain payment settlement implemented in Solidity. |
@@ -102,6 +111,13 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 ![CosmWasm](https://img.shields.io/badge/CosmWasm-5064FB?style=flat-square&logo=cosmos&logoColor=white)
 ![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
 ![Foundry](https://img.shields.io/badge/Foundry-000000?style=flat-square&logo=ethereum&logoColor=white)
+
+**AI / ML Systems**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![torch.distributed](https://img.shields.io/badge/torch.distributed-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![DiLoCo](https://img.shields.io/badge/DiLoCo-5064FB?style=flat-square)
+![Decentralized Training](https://img.shields.io/badge/Decentralized%20Training-1A0C6D?style=flat-square)
 
 **Backend & Infrastructure**
 
