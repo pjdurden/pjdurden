@@ -1,11 +1,11 @@
 <h1 align="center">Prajjwal Chittori</h1>
 
 <p align="center">
-  Backend Engineer — Crypto Infrastructure &amp; Traditional Payments
+  Backend Engineer — AI Inference Systems · Crypto Infrastructure · Traditional Payments
 </p>
 
 <p align="center">
-  Liquid staking &nbsp;·&nbsp; Card &amp; settlement rails &nbsp;·&nbsp; Cross-border payments &nbsp;·&nbsp; DeFi vaults
+  LLM inference &amp; serving (vLLM) &nbsp;·&nbsp; ML systems &nbsp;·&nbsp; Liquid staking &nbsp;·&nbsp; Card &amp; settlement rails &nbsp;·&nbsp; Cross-border payments
 </p>
 
 <p align="center">
@@ -26,7 +26,8 @@ My work spans both sides of that seam: founding-team engineer at a liquid-stakin
 - **Currently:** Senior Backend Engineer at ether.fi — Cash (card) & Vault products
 - **Core stack:** Go, Rust, Solidity, TypeScript, Java/Spring, Ethereum/EVM, EigenLayer, Kafka, PostgreSQL, Redis
 - **Education:** B.Tech, Computer Science — Delhi College of Engineering (now Delhi Technological University)
-- **Focus areas:** liquid staking & restaking, card settlement, cross-border payments, stablecoins, smart-contract gas optimization, decentralized / distributed ML training (DiLoCo)
+- **Focus areas:** AI inference & serving infrastructure (vLLM), ML systems, decentralized / distributed ML training (DiLoCo), liquid staking & restaking, card settlement, cross-border payments, stablecoins
+- **Open source:** active contributor to AI inference infrastructure — merged into [vLLM](https://github.com/vllm-project/vllm/pull/44942), with further merged fixes in [Meilisearch](https://github.com/meilisearch/meilisearch/pull/6437) and [revm](https://github.com/bluealloy/revm/pull/3735)
 
 ---
 
@@ -78,7 +79,15 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 **StragglerPolicy: Straggler-Aware Elastic Membership for Decentralized Training** *(Zenodo, 2026)* — a zero-GPU discrete-event simulator of DiLoCo-style decentralized ML training plus a straggler-aware membership policy for *slow-but-alive* nodes that existing decentralized-training stacks don't handle. **4.59× faster** than the baseline on a persistent-straggler scenario, validated against a `torch.distributed`/gloo DiLoCo loop. [Paper](https://doi.org/10.5281/zenodo.20574905) · [Code — pjdurden/churn](https://github.com/pjdurden/churn)
 
-**Open source**
+**Upstream contributions** — merged fixes in widely-used open-source infrastructure:
+
+| Project | Contribution |
+|---|---|
+| [vLLM](https://github.com/vllm-project/vllm/pull/44942) | The standard high-throughput **LLM inference & serving engine** — build-correctness fix in the precompiled-flag test suite ([#44942](https://github.com/vllm-project/vllm/pull/44942)). |
+| [Meilisearch](https://github.com/meilisearch/meilisearch/pull/6437) | Rust search engine (58K★) — fixed a ranking-rules ordering bug that silently dropped matching hits ([#6437](https://github.com/meilisearch/meilisearch/pull/6437)). |
+| [revm](https://github.com/bluealloy/revm/pull/3735) | The Rust EVM behind Foundry & reth — removed a const-eval panic path in the stack interpreter ([#3735](https://github.com/bluealloy/revm/pull/3735)). |
+
+**Personal projects**
 
 | Project | Description |
 |---|---|
@@ -114,6 +123,7 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 **AI / ML Systems**
 
+![vLLM](https://img.shields.io/badge/vLLM-30A14E?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![torch.distributed](https://img.shields.io/badge/torch.distributed-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![DiLoCo](https://img.shields.io/badge/DiLoCo-5064FB?style=flat-square)
