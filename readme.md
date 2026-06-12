@@ -27,7 +27,7 @@ My work spans both sides of that seam: founding-team engineer at a liquid-stakin
 - **Core stack:** Go, Rust, Solidity, TypeScript, Java/Spring, Ethereum/EVM, EigenLayer, Kafka, PostgreSQL, Redis
 - **Education:** B.Tech, Computer Science — Delhi College of Engineering (now Delhi Technological University)
 - **Focus areas:** AI inference & serving infrastructure (vLLM), ML systems, decentralized / distributed ML training (DiLoCo), liquid staking & restaking, card settlement, cross-border payments, stablecoins
-- **Open source:** active contributor to AI inference infrastructure — merged into [vLLM](https://github.com/vllm-project/vllm/pull/44942), with further merged fixes in [Meilisearch](https://github.com/meilisearch/meilisearch/pull/6437) and [revm](https://github.com/bluealloy/revm/pull/3735)
+- **Open source:** active contributor to AI inference infrastructure — merged into [vLLM](https://github.com/vllm-project/vllm/pull/44942), with further merged fixes in [Meilisearch](https://github.com/meilisearch/meilisearch/pull/6437), [revm](https://github.com/bluealloy/revm/pull/3735) and [celestia-node](https://github.com/celestiaorg/celestia-node/pull/5041)
 
 ---
 
@@ -86,15 +86,17 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 | [vLLM](https://github.com/vllm-project/vllm/pull/44942) | The standard high-throughput **LLM inference & serving engine** — build-correctness fix in the precompiled-flag test suite ([#44942](https://github.com/vllm-project/vllm/pull/44942)). |
 | [Meilisearch](https://github.com/meilisearch/meilisearch/pull/6437) | Rust search engine (58K★) — fixed a ranking-rules ordering bug that silently dropped matching hits ([#6437](https://github.com/meilisearch/meilisearch/pull/6437)). |
 | [revm](https://github.com/bluealloy/revm/pull/3735) | The Rust EVM behind Foundry & reth — removed a const-eval panic path in the stack interpreter ([#3735](https://github.com/bluealloy/revm/pull/3735)). |
+| [celestia-node](https://github.com/celestiaorg/celestia-node/pull/5041) | The Go node for the **Celestia** data-availability layer — unified the header `TestSuite` constructors behind functional options ([#5041](https://github.com/celestiaorg/celestia-node/pull/5041)). |
 
 **Personal projects**
 
 | Project | Description |
 |---|---|
+| [kv-canary](https://github.com/pjdurden/kv-canary) | A canary for **silent KV-cache-compression failures** — functional accuracy (code execution / tool-calls) vs perplexity under quantization & token eviction, scored by a Silent Degradation Score. |
 | [churn — StragglerPolicy](https://github.com/pjdurden/churn) | Deterministic discrete-event simulator of elastic-membership decentralized ML training, plus the straggler-aware membership policy behind the paper above. |
 | [CoinSwap (CosmWasm + Terraswap)](https://github.com/pjdurden/CoinSwap-using-Cosmwasm-and-Terraswap) | DEX swap contract for LUNA/UST/CW20 tokens, with a gas-fee analysis tool for the Terra blockchain. |
 | [Gas-Fee Benchmark (cw-storage-plus / Terraswap)](https://github.com/pjdurden/Gas_analysis_cw_storage_plus_terraswap) | Benchmarking contract measuring gas costs of storage patterns on Terra/CosmWasm. |
-| [Solidity Payment System](https://github.com/pjdurden/Solidity_Payment_System) | On-chain payment settlement implemented in Solidity. |
+| [friendly-neighbourhood-6502](https://github.com/pjdurden/friendly-neighbourhood-6502) | **Bare-metal systems** — cycle-accurate 6502 CPU emulator down to bus/processor pins, addressing modes, and internal functions, with an OpenGL / Pixel Game Engine graphics frontend. |
 | [Solana Payment System](https://github.com/pjdurden/Solana-PaymentSystem-Visa) | Rust payment-settlement program deployed on Solana. |
 | [Stader APR Dashboard](https://github.com/pjdurden/Stader-Apr-Dashboard-) | React dashboard surfacing staking APR and validator analytics. |
 | [Veri5](https://github.com/pjdurden/veri5-mvp) | Real-time identity and account verification API for cross-border payments. |
