@@ -27,7 +27,7 @@ My work spans both sides of that seam: founding-team engineer at a liquid-stakin
 - **Core stack:** Go, Rust, Solidity, TypeScript, Java/Spring, Ethereum/EVM, EigenLayer, Kafka, PostgreSQL, Redis
 - **Education:** B.Tech, Computer Science — Delhi College of Engineering (now Delhi Technological University)
 - **Focus areas:** AI inference & serving infrastructure (vLLM), ML systems, decentralized / distributed ML training (DiLoCo), liquid staking & restaking, card settlement, cross-border payments, stablecoins
-- **Open source:** active contributor to AI inference infrastructure — merged into [vLLM](https://github.com/vllm-project/vllm/pull/44942), with further merged fixes in [Meilisearch](https://github.com/meilisearch/meilisearch/pull/6437), [revm](https://github.com/bluealloy/revm/pull/3735) and [celestia-node](https://github.com/celestiaorg/celestia-node/pull/5041)
+- **Open source:** active contributor to AI inference & blockchain infrastructure — merged into [vLLM](https://github.com/vllm-project/vllm/pull/44942), [Optimism](https://github.com/ethereum-optimism/optimism/pull/21127) and [mcp-go](https://github.com/mark3labs/mcp-go/pull/904), with further merged fixes in [Meilisearch](https://github.com/meilisearch/meilisearch/pull/6437), [revm](https://github.com/bluealloy/revm/pull/3735) and [celestia-node](https://github.com/celestiaorg/celestia-node/pull/5041)
 
 ---
 
@@ -83,6 +83,8 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 | Project | Contribution |
 |---|---|
+| [Optimism](https://github.com/ethereum-optimism/optimism/pull/21127) | The **OP Stack** monorepo powering Ethereum L2s (Base, OP Mainnet) — fixed an `op-wheel` metrics bug that wrote block gas twice and left the base-fee gauge unset ([#21127](https://github.com/ethereum-optimism/optimism/pull/21127)). |
+| [mcp-go](https://github.com/mark3labs/mcp-go/pull/904) | The leading Go implementation of the **Model Context Protocol (MCP)** — fixed `getServerMetadata` returning `(nil, nil)` instead of an error, closing a silent-failure path in OAuth discovery ([#904](https://github.com/mark3labs/mcp-go/pull/904)). |
 | [vLLM](https://github.com/vllm-project/vllm/pull/44942) | The standard high-throughput **LLM inference & serving engine** — build-correctness fix in the precompiled-flag test suite ([#44942](https://github.com/vllm-project/vllm/pull/44942)). |
 | [Meilisearch](https://github.com/meilisearch/meilisearch/pull/6437) | Rust search engine (58K★) — fixed a ranking-rules ordering bug that silently dropped matching hits ([#6437](https://github.com/meilisearch/meilisearch/pull/6437)). |
 | [revm](https://github.com/bluealloy/revm/pull/3735) | The Rust EVM behind Foundry & reth — removed a const-eval panic path in the stack interpreter ([#3735](https://github.com/bluealloy/revm/pull/3735)). |
