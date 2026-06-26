@@ -1,11 +1,11 @@
 <h1 align="center">Prajjwal Chittori</h1>
 
 <p align="center">
-  Backend Engineer - AI Inference Systems · Crypto Infrastructure · Traditional Payments
+  Crypto &amp; Payments Backend Engineer - DeFi &amp; Liquid Restaking · On-chain Settlement · Card &amp; Payment Rails
 </p>
 
 <p align="center">
-  LLM inference &amp; serving (vLLM) &nbsp;·&nbsp; ML systems &nbsp;·&nbsp; Liquid staking &nbsp;·&nbsp; Card &amp; settlement rails &nbsp;·&nbsp; Cross-border payments
+  Liquid staking &amp; restaking &nbsp;·&nbsp; On-chain ⇄ card settlement &nbsp;·&nbsp; Cross-border payments &nbsp;·&nbsp; Stablecoins &nbsp;·&nbsp; Smart contracts (EVM / Solana / CosmWasm)
 </p>
 
 <p align="center">
@@ -26,8 +26,8 @@ My work spans both sides of that seam: founding-team engineer at a liquid-stakin
 - **Currently:** Senior Backend Engineer at ether.fi - Cash (card) & Vault products
 - **Core stack:** Go, Rust, Solidity, TypeScript, Java/Spring, Ethereum/EVM, EigenLayer, Kafka, PostgreSQL, Redis
 - **Education:** B.Tech, Computer Science - Delhi College of Engineering (now Delhi Technological University)
-- **Focus areas:** AI inference & serving infrastructure (vLLM), ML systems, decentralized / distributed ML training (DiLoCo), liquid staking & restaking, card settlement, cross-border payments, stablecoins
-- **Open source:** active contributor to AI inference & blockchain infrastructure - merged into [vLLM](https://github.com/vllm-project/vllm/pull/44942), [SGLang](https://github.com/sgl-project/sglang/pull/27430), [AIBrix](https://github.com/vllm-project/aibrix/pull/2384), [llguidance](https://github.com/guidance-ai/llguidance/pull/357), [Optimism](https://github.com/ethereum-optimism/optimism/pull/21127) and [mcp-go](https://github.com/mark3labs/mcp-go/pull/904), with further merged fixes in [Meilisearch](https://github.com/meilisearch/meilisearch/pull/6437), [revm](https://github.com/bluealloy/revm/pull/3735), [celestia-node](https://github.com/celestiaorg/celestia-node/pull/5041) and [ethrex](https://github.com/lambdaclass/ethrex/pull/6786)
+- **Focus areas:** liquid staking & restaking, on-chain/off-chain settlement, card & payment rails, cross-border payments, stablecoins, smart contracts (EVM / Solana / CosmWasm) - plus AI inference infrastructure (vLLM) on the open-source side
+- **Open source:** active contributor across blockchain & crypto infrastructure - merged into [Optimism](https://github.com/ethereum-optimism/optimism/pull/21127) (OP Stack), [revm](https://github.com/bluealloy/revm/pull/3735) (the EVM behind Foundry & reth), [celestia-node](https://github.com/celestiaorg/celestia-node/pull/5041) and [ethrex](https://github.com/lambdaclass/ethrex/pull/6786), with further merges in AI-inference infra - [vLLM](https://github.com/vllm-project/vllm/pull/44942), [SGLang](https://github.com/sgl-project/sglang/pull/27430), [AIBrix](https://github.com/vllm-project/aibrix/pull/2384), [mistral.rs](https://github.com/EricLBuehler/mistral.rs/pull/2250), [llguidance](https://github.com/guidance-ai/llguidance/pull/357) and [mcp-go](https://github.com/mark3labs/mcp-go/pull/904)
 
 ---
 
@@ -84,15 +84,16 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 | Project | Contribution |
 |---|---|
 | [Optimism](https://github.com/ethereum-optimism/optimism/pull/21127) | The **OP Stack** monorepo powering Ethereum L2s (Base, OP Mainnet) - fixed an `op-wheel` metrics bug that wrote block gas twice and left the base-fee gauge unset ([#21127](https://github.com/ethereum-optimism/optimism/pull/21127)). |
+| [revm](https://github.com/bluealloy/revm/pull/3735) | The Rust **EVM behind Foundry & reth** - removed a const-eval panic path in the stack interpreter ([#3735](https://github.com/bluealloy/revm/pull/3735)). |
+| [celestia-node](https://github.com/celestiaorg/celestia-node/pull/5041) | The Go node for the **Celestia** data-availability layer - unified the header `TestSuite` constructors behind functional options ([#5041](https://github.com/celestiaorg/celestia-node/pull/5041)). |
+| [ethrex](https://github.com/lambdaclass/ethrex/pull/6786) | The Rust **Ethereum L1/L2 execution client** by LambdaClass - replaced a too-broad `datadir non-empty` startup check with an actual-DB probe, so unrelated files (e.g. an EthDocker JWT secret) no longer block a fresh node from booting ([#6786](https://github.com/lambdaclass/ethrex/pull/6786)). |
 | [mcp-go](https://github.com/mark3labs/mcp-go/pull/904) | The leading Go implementation of the **Model Context Protocol (MCP)** - fixed `getServerMetadata` returning `(nil, nil)` instead of an error, closing a silent-failure path in OAuth discovery ([#904](https://github.com/mark3labs/mcp-go/pull/904)). |
 | [vLLM](https://github.com/vllm-project/vllm/pull/44942) | The standard high-throughput **LLM inference & serving engine** - build-correctness fix in the precompiled-flag test suite ([#44942](https://github.com/vllm-project/vllm/pull/44942)). |
 | [SGLang](https://github.com/sgl-project/sglang/pull/27430) | High-throughput **LLM/VLM serving engine** - fixed the prefill/decode router's cache-aware routing keying chat requests on the first message only; routing on the full conversation lifted KV-cache hits from **~69% to ~96%** and output throughput from **~678 to ~1078 TPS** ([#27430](https://github.com/sgl-project/sglang/pull/27430)). |
 | [AIBrix](https://github.com/vllm-project/aibrix/pull/2384) | The vLLM project's **Kubernetes-native LLM-serving** control plane - fixed the ZMQ KV-event decoder dropping `group_idx`/`medium`/`lora_name` from vLLM's `BlockStored` event, which caused false prefix-cache matches on hybrid-attention models ([#2384](https://github.com/vllm-project/aibrix/pull/2384)). |
+| [mistral.rs](https://github.com/EricLBuehler/mistral.rs/pull/2250) | The Rust **LLM inference & serving engine**: fixed reversed FCFS priority in the `PagedAttentionScheduler` preemption path so the oldest request is preempted last ([#2250](https://github.com/EricLBuehler/mistral.rs/pull/2250)), and validated GGUF special-token ids against the vocab to prevent an out-of-bounds panic on model load ([#2282](https://github.com/EricLBuehler/mistral.rs/pull/2282)). |
 | [llguidance](https://github.com/guidance-ai/llguidance/pull/357) | The **constrained-decoding engine** behind structured / JSON-Schema output in vLLM, SGLang and llama.cpp - fixed `multipleOf` rejecting negative multiples ([#357](https://github.com/guidance-ai/llguidance/pull/357)) and made `max_tokens=0` rules compile to the empty string ([#356](https://github.com/guidance-ai/llguidance/pull/356)). |
 | [Meilisearch](https://github.com/meilisearch/meilisearch/pull/6437) | Rust search engine (58K★) - fixed a ranking-rules ordering bug that silently dropped matching hits ([#6437](https://github.com/meilisearch/meilisearch/pull/6437)). |
-| [revm](https://github.com/bluealloy/revm/pull/3735) | The Rust EVM behind Foundry & reth - removed a const-eval panic path in the stack interpreter ([#3735](https://github.com/bluealloy/revm/pull/3735)). |
-| [celestia-node](https://github.com/celestiaorg/celestia-node/pull/5041) | The Go node for the **Celestia** data-availability layer - unified the header `TestSuite` constructors behind functional options ([#5041](https://github.com/celestiaorg/celestia-node/pull/5041)). |
-| [ethrex](https://github.com/lambdaclass/ethrex/pull/6786) | The Rust **Ethereum L1/L2 execution client** by LambdaClass - replaced a too-broad `datadir non-empty` startup check with an actual-DB probe, so unrelated files (e.g. an EthDocker JWT secret) no longer block a fresh node from booting ([#6786](https://github.com/lambdaclass/ethrex/pull/6786)). |
 
 **Personal projects**
 
@@ -129,14 +130,6 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 ![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
 ![Foundry](https://img.shields.io/badge/Foundry-000000?style=flat-square&logo=ethereum&logoColor=white)
 
-**AI / ML Systems**
-
-![vLLM](https://img.shields.io/badge/vLLM-30A14E?style=flat-square)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![torch.distributed](https://img.shields.io/badge/torch.distributed-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![DiLoCo](https://img.shields.io/badge/DiLoCo-5064FB?style=flat-square)
-![Decentralized Training](https://img.shields.io/badge/Decentralized%20Training-1A0C6D?style=flat-square)
-
 **Backend & Infrastructure**
 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
@@ -147,6 +140,14 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+
+**AI / ML Systems**
+
+![vLLM](https://img.shields.io/badge/vLLM-30A14E?style=flat-square)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![torch.distributed](https://img.shields.io/badge/torch.distributed-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![DiLoCo](https://img.shields.io/badge/DiLoCo-5064FB?style=flat-square)
+![Decentralized Training](https://img.shields.io/badge/Decentralized%20Training-1A0C6D?style=flat-square)
 
 ---
 
