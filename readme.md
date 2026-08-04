@@ -38,7 +38,7 @@ My work spans both sides of that seam: founding-team engineer at a liquid-stakin
 
 *Backend engineering across crypto and global payments.*
 
-<details>
+<details open>
 <summary><b>ether.fi - Senior Backend Engineer, Card & Vault Products</b>&nbsp; <sub><code>2026 - Present</code></sub></summary>
 
 Building ether.fi Cash, a non-custodial Visa crypto card on liquid-restaking infrastructure where users spend ETH/USDC while their assets continue earning restaking yield.
@@ -51,7 +51,7 @@ Building ether.fi Cash, a non-custodial Visa crypto card on liquid-restaking inf
 `$ Go · Solidity · Ethereum · EigenLayer · Kafka · PostgreSQL · Redis`
 
 </details>
-<details>
+<details open>
 <summary><b>Visa - Senior Software Engineer, Payments & Crypto Initiative</b>&nbsp; <sub><code>2022 - 2026</code></sub></summary>
 
 Worked across traditional cross-border payments and Visa's stablecoin / crypto initiative - the bridge between card networks and digital assets.
@@ -64,7 +64,7 @@ Worked across traditional cross-border payments and Visa's stablecoin / crypto i
 `$ Java · Spring Boot · Solidity · Rust · RabbitMQ · Hazelcast · Docker · Kubernetes`
 
 </details>
-<details>
+<details open>
 <summary><b>Stader Labs - Software Engineer, Founding Team</b>&nbsp; <sub><code>2021 - 2022</code></sub></summary>
 
 Joined as an intern during the final years of my degree at Delhi College of Engineering and grew into a founding member of a ~7-person team building a multi-chain liquid-staking protocol.
