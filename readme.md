@@ -9,10 +9,14 @@
 </p>
 
 <p align="center">
-  <a href="https://pjdurden.github.io/prajjwalchittori/"><img src="https://img.shields.io/badge/Website-0b0d10?style=flat&logo=googlechrome&logoColor=white" alt="Website"/></a>
-  <a href="https://www.linkedin.com/in/prajjwal-chittori/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://codeforces.com/profile/pjdurden"><img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=flat&logo=codeforces&logoColor=white" alt="Codeforces Expert"/></a>
-  <a href="mailto:prajjwalchittoriwork@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://prajj.com/"><img src="https://img.shields.io/badge/prajj.com-0c875a?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"/></a>
+  <a href="https://www.linkedin.com/in/prajjwal-chittori/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://codeforces.com/profile/pjdurden"><img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces Expert"/></a>
+  <a href="mailto:prajjwalchittoriwork@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
+
+<p align="center">
+  <sub><code>$ 21 merged upstream PRs · 16 projects · 3 papers · $500M+ TVL shipped</code></sub>
 </p>
 
 ---
@@ -27,14 +31,15 @@ My work spans both sides of that seam: founding-team engineer at a liquid-stakin
 - **Core stack:** Go, Rust, Solidity, TypeScript, Java/Spring, Ethereum/EVM, EigenLayer, Kafka, PostgreSQL, Redis
 - **Education:** B.Tech, Computer Science - Delhi College of Engineering (now Delhi Technological University)
 - **Focus areas:** liquid staking & restaking, on-chain/off-chain settlement, card & payment rails, cross-border payments, stablecoins, smart contracts (EVM / Solana / CosmWasm) - plus AI inference infrastructure (vLLM) on the open-source side
-- **Open source:** active contributor across blockchain & crypto infrastructure - merged into [Optimism](https://github.com/ethereum-optimism/optimism/pull/21127) (OP Stack), [revm](https://github.com/bluealloy/revm/pull/3735) (the EVM behind Foundry & reth), [alloy](https://github.com/alloy-rs/core/pull/1118) (the Rust Ethereum-types & `sol!` toolkit), [celestia-node](https://github.com/celestiaorg/celestia-node/pull/5041) and [ethrex](https://github.com/lambdaclass/ethrex/pull/6786), with further merges in AI-inference infra - [vLLM](https://github.com/vllm-project/vllm/pull/44942), [SGLang](https://github.com/sgl-project/sglang/pull/27430), [AIBrix](https://github.com/vllm-project/aibrix/pull/2384), [mistral.rs](https://github.com/EricLBuehler/mistral.rs/pull/2250), [llguidance](https://github.com/guidance-ai/llguidance/pull/357), [outlines-core](https://github.com/dottxt-ai/outlines-core/pull/258), [Mooncake](https://github.com/kvcache-ai/Mooncake/pull/2919), [candle](https://github.com/huggingface/candle/pull/3586), [mcp-go](https://github.com/mark3labs/mcp-go/pull/904) and [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway/pull/2267)
 
 ---
 
-## Experience
+## Experience &nbsp;<sub><code>2021 - now</code></sub>
 
-### ether.fi - Senior Backend Engineer, Card & Vault Products
-`2026 – Present`
+*Backend engineering across crypto and global payments.*
+
+<details>
+<summary><b>ether.fi - Senior Backend Engineer, Card & Vault Products</b>&nbsp; <sub><code>2026 - Present</code></sub></summary>
 
 Building ether.fi Cash, a non-custodial Visa crypto card on liquid-restaking infrastructure where users spend ETH/USDC while their assets continue earning restaking yield.
 
@@ -43,10 +48,11 @@ Building ether.fi Cash, a non-custodial Visa crypto card on liquid-restaking inf
 - Designed an event-driven cashback pipeline (wETH rewards) on Kafka.
 - Hardened KYC/AML and risk monitoring with chain-analytics providers; extended multi-chain support across Ethereum L1 and L2s.
 
-*Go · Solidity · Ethereum · EigenLayer · Kafka · PostgreSQL · Redis*
+`$ Go · Solidity · Ethereum · EigenLayer · Kafka · PostgreSQL · Redis`
 
-### Visa - Senior Software Engineer, Payments & Crypto Initiative
-`2022 – 2026`
+</details>
+<details>
+<summary><b>Visa - Senior Software Engineer, Payments & Crypto Initiative</b>&nbsp; <sub><code>2022 - 2026</code></sub></summary>
 
 Worked across traditional cross-border payments and Visa's stablecoin / crypto initiative - the bridge between card networks and digital assets.
 
@@ -55,10 +61,11 @@ Worked across traditional cross-border payments and Visa's stablecoin / crypto i
 - Built the Network Validations Framework - configurable payer/beneficiary identity checks across 100+ SWIFT message types.
 - Prototyped on-chain payment settlement in Solidity and Solana as part of the crypto/stablecoin track.
 
-*Java · Spring Boot · Solidity · Rust · RabbitMQ · Hazelcast · Docker · Kubernetes*
+`$ Java · Spring Boot · Solidity · Rust · RabbitMQ · Hazelcast · Docker · Kubernetes`
 
-### Stader Labs - Software Engineer, Founding Team
-`2021 – 2022`
+</details>
+<details>
+<summary><b>Stader Labs - Software Engineer, Founding Team</b>&nbsp; <sub><code>2021 - 2022</code></sub></summary>
 
 Joined as an intern during the final years of my degree at Delhi College of Engineering and grew into a founding member of a ~7-person team building a multi-chain liquid-staking protocol.
 
@@ -67,19 +74,46 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 - Built a validator analytics platform monitoring 1M+ nodes (React, MongoDB, Ethereum APIs) and APR dashboards.
 - Designed cross-chain architecture and on-chain/off-chain synchronization pipelines.
 
-*Rust · CosmWasm · TypeScript · Python · React · MongoDB*
+`$ Rust · CosmWasm · TypeScript · Python · React · MongoDB`
+
+</details>
 
 ---
 
-## OSS and Research
+## Research &nbsp;<sub><code>3 papers</code></sub>
 
-**Research**
+*Published, peer-citable work.*
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20574905.svg)](https://doi.org/10.5281/zenodo.20574905)
+<details>
+<summary><b>Cache-aware request planning for black-box LLM APIs</b>&nbsp; <sub><code>2026 · preprint</code></sub></summary>
 
-**StragglerPolicy: Straggler-Aware Elastic Membership for Decentralized Training** *(Zenodo, 2026)* - a zero-GPU discrete-event simulator of DiLoCo-style decentralized ML training plus a straggler-aware membership policy for *slow-but-alive* nodes that existing decentralized-training stacks don't handle. **4.59× faster** than the baseline on a persistent-straggler scenario, validated against a `torch.distributed`/gloo DiLoCo loop. [Paper](https://doi.org/10.5281/zenodo.20574905) · [Code - pjdurden/churn](https://github.com/pjdurden/churn)
+**Cache-Aware Client-Side Request Planning for Black-Box LLM APIs.** When you consume an LLM through a paid per-token API you pay for the tokens the server processes, so the only lossless lever a client has is re-ordering requests to hit the provider's prompt cache. Formalizes that design space and ships a **greedy prefix-clustering scheduler** that shapes request order to maximize cache hits - **up to 60% billed-cost reduction** on an agentic workload at zero quality loss, Pareto-dominating prompt compression and semantic caching.
 
-**Upstream contributions** - 21 merged fixes across 16 widely-used open-source projects. Star counts are live; expand a project for the actual bug.
+[DOI 10.5281/zenodo.21386594](https://doi.org/10.5281/zenodo.21386594) · [pjdurden/cache-aware-request-planning](https://github.com/pjdurden/cache-aware-request-planning)
+
+</details>
+<details>
+<summary><b>Executable correctness under KV-cache compression</b>&nbsp; <sub><code>2026 · preprint</code></sub></summary>
+
+**Perplexity Holds, Programs Break: Executable Correctness as a Blind Spot of KV-Cache Compression.** KV-cache compression is benchmarked almost entirely on token-overlap and retrieval metrics that never check whether generated code actually runs or a tool call is schema-valid. Introduces **kv-exec-bench**, an open benchmark measuring code unit-test pass@1 and tool-call JSON-Schema validity under compression, built on NVIDIA's `kvpress` so any press works unmodified.
+
+[DOI 10.5281/zenodo.20805562](https://doi.org/10.5281/zenodo.20805562) · [pjdurden/kv-exec-bench](https://github.com/pjdurden/kv-exec-bench)
+
+</details>
+<details>
+<summary><b>StragglerPolicy - straggler-aware decentralized training</b>&nbsp; <sub><code>2026 · paper</code></sub></summary>
+
+**Straggler-Aware Elastic Membership for Decentralized Training.** A zero-GPU discrete-event simulator of DiLoCo-style decentralized ML training plus a straggler-aware membership policy for *slow-but-alive* nodes that existing decentralized-training stacks don't handle. **4.59x faster** than the baseline on a persistent-straggler scenario, validated against a `torch.distributed`/gloo DiLoCo loop.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20574905.svg)](https://doi.org/10.5281/zenodo.20574905) · [pjdurden/churn](https://github.com/pjdurden/churn)
+
+</details>
+
+---
+
+## Open Source &nbsp;<sub><code>21 merged · 16 projects</code></sub>
+
+*Merged work on the infrastructure other people build on. Star counts are live; expand a project for the actual bug.*
 
 <table>
 <tr>
@@ -284,22 +318,67 @@ The Rust **JSON-Schema to regex core** behind Outlines' structured generation - 
 
 </details>
 
-**Personal projects**
+---
 
-| Project | Description |
-|---|---|
-| [kv-canary](https://github.com/pjdurden/kv-canary) | A canary for **silent KV-cache-compression failures** - functional accuracy (code execution / tool-calls) vs perplexity under quantization & token eviction, scored by a Silent Degradation Score. |
-| [churn - StragglerPolicy](https://github.com/pjdurden/churn) | Deterministic discrete-event simulator of elastic-membership decentralized ML training, plus the straggler-aware membership policy behind the paper above. |
-| [CoinSwap (CosmWasm + Terraswap)](https://github.com/pjdurden/CoinSwap-using-Cosmwasm-and-Terraswap) | DEX swap contract for LUNA/UST/CW20 tokens, with a gas-fee analysis tool for the Terra blockchain. |
-| [Gas-Fee Benchmark (cw-storage-plus / Terraswap)](https://github.com/pjdurden/Gas_analysis_cw_storage_plus_terraswap) | Benchmarking contract measuring gas costs of storage patterns on Terra/CosmWasm. |
-| [friendly-neighbourhood-6502](https://github.com/pjdurden/friendly-neighbourhood-6502) | **Bare-metal systems** - cycle-accurate 6502 CPU emulator down to bus/processor pins, addressing modes, and internal functions, with an OpenGL / Pixel Game Engine graphics frontend. |
-| [Solana Payment System](https://github.com/pjdurden/Solana-PaymentSystem-Visa) | Rust payment-settlement program deployed on Solana. |
-| [Stader APR Dashboard](https://github.com/pjdurden/Stader-Apr-Dashboard-) | React dashboard surfacing staking APR and validator analytics. |
-| [Veri5](https://github.com/pjdurden/veri5-mvp) | Real-time identity and account verification API for cross-border payments. |
+## Personal Projects &nbsp;<sub><code>8 builds</code></sub>
+
+*Smaller things built to learn or to prove a point.*
+
+<details>
+<summary><b>kv-canary</b>&nbsp; <sub><code>KV-cache compression</code></sub></summary>
+
+A canary for **silent KV-cache-compression failures** - functional accuracy (code execution / tool-calls) vs perplexity under quantization & token eviction, scored by a Silent Degradation Score. [pjdurden/kv-canary](https://github.com/pjdurden/kv-canary)
+
+</details>
+<details>
+<summary><b>churn - StragglerPolicy</b>&nbsp; <sub><code>decentralized training</code></sub></summary>
+
+Deterministic discrete-event simulator of elastic-membership decentralized ML training, plus the straggler-aware membership policy behind the paper above. [pjdurden/churn](https://github.com/pjdurden/churn)
+
+</details>
+<details>
+<summary><b>friendly-neighbourhood-6502</b>&nbsp; <sub><code>bare-metal systems</code></sub></summary>
+
+**Cycle-accurate 6502 CPU emulator** down to bus/processor pins, addressing modes, and internal functions, with an OpenGL / Pixel Game Engine graphics frontend. [pjdurden/friendly-neighbourhood-6502](https://github.com/pjdurden/friendly-neighbourhood-6502)
+
+</details>
+<details>
+<summary><b>CoinSwap</b>&nbsp; <sub><code>CosmWasm + Terraswap</code></sub></summary>
+
+DEX swap contract for LUNA/UST/CW20 tokens, with a gas-fee analysis tool for the Terra blockchain. [pjdurden/CoinSwap](https://github.com/pjdurden/CoinSwap-using-Cosmwasm-and-Terraswap)
+
+</details>
+<details>
+<summary><b>Gas-Fee Benchmark</b>&nbsp; <sub><code>cw-storage-plus / Terraswap</code></sub></summary>
+
+Benchmarking contract measuring gas costs of storage patterns on Terra/CosmWasm. [pjdurden/Gas_analysis](https://github.com/pjdurden/Gas_analysis_cw_storage_plus_terraswap)
+
+</details>
+<details>
+<summary><b>Solana Payment System</b>&nbsp; <sub><code>Rust on Solana</code></sub></summary>
+
+Rust payment-settlement program deployed on Solana. [pjdurden/Solana-PaymentSystem-Visa](https://github.com/pjdurden/Solana-PaymentSystem-Visa)
+
+</details>
+<details>
+<summary><b>Stader APR Dashboard</b>&nbsp; <sub><code>React</code></sub></summary>
+
+React dashboard surfacing staking APR and validator analytics. [pjdurden/Stader-Apr-Dashboard-](https://github.com/pjdurden/Stader-Apr-Dashboard-)
+
+</details>
+<details>
+<summary><b>Veri5</b>&nbsp; <sub><code>payments identity API</code></sub></summary>
+
+Real-time identity and account verification API for cross-border payments. [pjdurden/veri5-mvp](https://github.com/pjdurden/veri5-mvp)
+
+</details>
 
 ---
 
-## Technical Skills
+## Technical Skills &nbsp;<sub><code>stack</code></sub>
+
+<details>
+<summary><b>Languages, chains, infra and ML stack</b></summary>
 
 **Languages**
 
@@ -338,9 +417,14 @@ The Rust **JSON-Schema to regex core** behind Outlines' structured generation - 
 ![DiLoCo](https://img.shields.io/badge/DiLoCo-5064FB?style=flat-square)
 ![Decentralized Training](https://img.shields.io/badge/Decentralized%20Training-1A0C6D?style=flat-square)
 
+</details>
+
 ---
 
-## Competitive Programming
+## Competitive Programming &nbsp;<sub><code>Codeforces Expert</code></sub>
+
+<details>
+<summary><b>Ratings, contests and mentoring</b></summary>
 
 Achieved **Codeforces Expert** during university (pre-2022, before AI coding assistants) - a credential earned through unassisted algorithmic problem-solving under contest conditions.
 
@@ -350,3 +434,5 @@ Achieved **Codeforces Expert** during university (pre-2022, before AI coding ass
 - **[Code-A-Thon](https://dare2compete.com/hackathon/1022-code-a-thon-code-a-thon/details)** - Rank 5 (College Rank 1)
 - Cleared the Facebook Hacker Cup Qualification Round (2020); Google Kick Start Round B (2021).
 - Mentored 300+ students in algorithms and software engineering through [GirlScript](https://www.girlscript.tech/about).
+
+</details>
