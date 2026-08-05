@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <sub><code>$ 21 merged upstream PRs · 16 projects · 3 papers · $500M+ TVL shipped</code></sub>
+  <sub><code>$ 22 merged upstream PRs · 16 projects · 3 papers · $500M+ TVL shipped</code></sub>
 </p>
 
 ---
@@ -111,7 +111,7 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 ---
 
-## Open Source &nbsp;<sub><code>21 merged · 16 projects</code></sub>
+## Open Source &nbsp;<sub><code>22 merged · 16 projects</code></sub>
 
 *Merged work on the infrastructure other people build on. Star counts are live; expand a project for the actual bug.*
 
@@ -201,7 +201,7 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 <td align="center" width="25%">
 <a href="https://github.com/dottxt-ai/outlines-core"><img src="https://github.com/dottxt-ai.png?size=96" width="44" height="44" alt="outlines-core"><br><b>outlines-core</b></a><br>
 <img src="https://img.shields.io/github/stars/dottxt-ai/outlines-core?style=flat-square&label=%E2%98%85&labelColor=2a2f28&color=0c875a&cacheSeconds=21600" alt="stars"><br>
-<sub>1 merged</sub>
+<sub>2 merged</sub>
 </td>
 </tr>
 </table>
@@ -314,7 +314,7 @@ The **constrained-decoding engine** behind structured / JSON-Schema output in vL
 <details>
 <summary><b>outlines-core</b> &nbsp;<code>dottxt-ai/outlines-core</code></summary>
 
-The Rust **JSON-Schema to regex core** behind Outlines' structured generation - the `date` format regex applied a uniform 01-31 day range regardless of month, so constrained decoding could emit impossible dates such as `2022-02-31` and `2022-04-31`; made the day range month-aware, deliberately leaving leap years unvalidated to keep the compiled regex bounded ([#258](https://github.com/dottxt-ai/outlines-core/pull/258)).
+The Rust **JSON-Schema to regex core** behind Outlines' structured generation - the `date` format regex applied a uniform 01-31 day range regardless of month, so constrained decoding could emit impossible dates such as `2022-02-31` and `2022-04-31`; made the day range month-aware, deliberately leaving leap years unvalidated to keep the compiled regex bounded ([#258](https://github.com/dottxt-ai/outlines-core/pull/258)). The `date-time` format had the mirror problem in the other direction: it accepted only a `Z` suffix, so RFC3339 numeric offsets such as `2021-01-01T00:00:00+05:30` were rejected outright; added the `(+|-)HH:MM` offset while keeping it optional so offset-less strings still match ([#257](https://github.com/dottxt-ai/outlines-core/pull/257)).
 
 </details>
 
