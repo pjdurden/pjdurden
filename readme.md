@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <sub><code>$ 22 merged upstream PRs · 16 projects · 3 papers · $500M+ TVL shipped</code></sub>
+  <sub><code>$ 23 merged upstream PRs · 16 projects · 3 papers · $500M+ TVL shipped</code></sub>
 </p>
 
 ---
@@ -111,7 +111,7 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 ---
 
-## Open Source &nbsp;<sub><code>22 merged · 16 projects</code></sub>
+## Open Source &nbsp;<sub><code>23 merged · 16 projects</code></sub>
 
 *Merged work on the infrastructure other people build on. Star counts are live; expand a project for the actual bug.*
 
@@ -135,7 +135,7 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 <td align="center" width="25%">
 <a href="https://github.com/huggingface/candle"><img src="https://github.com/huggingface.png?size=96" width="44" height="44" alt="candle"><br><b>candle</b></a><br>
 <img src="https://img.shields.io/github/stars/huggingface/candle?style=flat-square&label=%E2%98%85&labelColor=2a2f28&color=0c875a&cacheSeconds=21600" alt="stars"><br>
-<sub>1 merged</sub>
+<sub>2 merged</sub>
 </td>
 </tr>
 <tr>
@@ -230,7 +230,7 @@ High-throughput **LLM/VLM serving engine** - fixed the prefill/decode router's c
 <details>
 <summary><b>candle</b> &nbsp;<code>huggingface/candle</code></summary>
 
-Hugging Face's minimalist **Rust ML framework** - Qwen3 produced incorrect output for any batch size > 1: the causal mask allocated a batch-independent buffer but claimed a `(b, 1, tgt, tgt + offset)` shape, so batch row 0 read the correct mask and every row after it read past the buffer; fixed by shaping the mask `(1, 1, ...)` and letting the existing `broadcast_add` apply it across the batch ([#3586](https://github.com/huggingface/candle/pull/3586)).
+Hugging Face's minimalist **Rust ML framework** - Qwen3 produced incorrect output for any batch size > 1: the causal mask allocated a batch-independent buffer but claimed a `(b, 1, tgt, tgt + offset)` shape, so batch row 0 read the correct mask and every row after it read past the buffer; fixed by shaping the mask `(1, 1, ...)` and letting the existing `broadcast_add` apply it across the batch ([#3586](https://github.com/huggingface/candle/pull/3586)). The follow-up swept the same defect out of the eight sibling models that carried it - `qwen3_moe`, the quantized Qwen3 pair, `glm4_new`, `quantized_glm4`, SmolLM3 and its quantized twin, and Z-Image's text encoder - where it was more exposed, since Qwen3's mask path was gated to CPU under `flash-attn` while these build the broken mask on every multi-token forward on every backend; centralized as `utils::build_additive_causal_mask` rather than copied eight more times, deleting 306 lines against 189 added ([#3879](https://github.com/huggingface/candle/pull/3879)).
 
 </details>
 
