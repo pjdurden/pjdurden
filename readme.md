@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <sub><code>$ 23 merged upstream PRs · 16 projects · 3 papers · $500M+ TVL shipped</code></sub>
+  <sub><code>$ 24 merged upstream PRs · 16 projects · 3 papers · $500M+ TVL shipped</code></sub>
 </p>
 
 ---
@@ -111,7 +111,7 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 ---
 
-## Open Source &nbsp;<sub><code>23 merged · 16 projects</code></sub>
+## Open Source &nbsp;<sub><code>24 merged · 16 projects</code></sub>
 
 *Merged work on the infrastructure other people build on. Star counts are live; expand a project for the actual bug.*
 
@@ -157,7 +157,7 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 <td align="center" width="25%">
 <a href="https://github.com/kvcache-ai/Mooncake"><img src="https://github.com/kvcache-ai.png?size=96" width="44" height="44" alt="Mooncake"><br><b>Mooncake</b></a><br>
 <img src="https://img.shields.io/github/stars/kvcache-ai/Mooncake?style=flat-square&label=%E2%98%85&labelColor=2a2f28&color=0c875a&cacheSeconds=21600" alt="stars"><br>
-<sub>2 merged</sub>
+<sub>3 merged</sub>
 </td>
 </tr>
 <tr>
@@ -258,7 +258,7 @@ The **OP Stack** monorepo powering Ethereum L2s (Base, OP Mainnet) - fixed an `o
 <details>
 <summary><b>Mooncake</b> &nbsp;<code>kvcache-ai/Mooncake</code></summary>
 
-The **KV-cache store & transfer engine** behind Kimi, used as a disaggregated KV backend by vLLM and SGLang - `mooncake_master` bound its RPC and HTTP servers to the numeric wildcard `0.0.0.0`, which the acceptors resolved through `getaddrinfo()`, so environments that answer `EAI_NONAME` for numeric literals killed startup with *bad address: 0.0.0.0*; fixed by pinning the dependency to a revision that parses numeric IP literals directly ([#2919](https://github.com/kvcache-ai/Mooncake/pull/2919)), and fixed an SSD-offload duplicate-key storm under concurrency: when two offload flows shared a KV prefix block, the bucket backend's intentional single-writer-per-key `OBJECT_ALREADY_EXISTS` rejection was treated as fatal by `FileStorage::OffloadObjects`, aborting the whole offload and leaving the decode node with `INVALID_KEY` floods; made duplicate-key rejection a recoverable per-bucket condition ([#2967](https://github.com/kvcache-ai/Mooncake/pull/2967)).
+The **KV-cache store & transfer engine** behind Kimi, used as a disaggregated KV backend by vLLM and SGLang - `mooncake_master` bound its RPC and HTTP servers to the numeric wildcard `0.0.0.0`, which the acceptors resolved through `getaddrinfo()`, so environments that answer `EAI_NONAME` for numeric literals killed startup with *bad address: 0.0.0.0*; fixed by pinning the dependency to a revision that parses numeric IP literals directly ([#2919](https://github.com/kvcache-ai/Mooncake/pull/2919)), and fixed an SSD-offload duplicate-key storm under concurrency: when two offload flows shared a KV prefix block, the bucket backend's intentional single-writer-per-key `OBJECT_ALREADY_EXISTS` rejection was treated as fatal by `FileStorage::OffloadObjects`, aborting the whole offload and leaving the decode node with `INVALID_KEY` floods; made duplicate-key rejection a recoverable per-bucket condition ([#2967](https://github.com/kvcache-ai/Mooncake/pull/2967)). The third fix stopped an RDMA endpoint rebuild storm: when a QP reported an `mlx5` local completion fault the slice was handed to the other bonded RNIC, which had no endpoint for that peer NIC and so ran a full handshake with fresh QP numbers, then handed it straight back when the fault recurred - two RNICs ping-ponging the same slices at worker-loop speed, with neither brake applying, since the local-failure branch deliberately never marked the rail failed and the context-health counter is cleared by any concurrent healthy completion; the failing local-to-peer rail is now charged an error in the existing rail monitor, so the threshold the remote-failure path already uses pauses that path after five faults and auto-recovers it ([#3387](https://github.com/kvcache-ai/Mooncake/pull/3387)).
 
 </details>
 
