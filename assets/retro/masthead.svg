@@ -1,21 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="Prajjwal Chittori - Backend Engineer, Crypto and Payments, Creator">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-label="Prajjwal Chittori - Backend Engineer, Crypto and Payments, Creator">
   <title>Prajjwal Chittori — Backend Engineer · Crypto &amp; Payments · Creator</title>
-  <rect width="1000" height="200" fill="#faf8f3"/>
-  <rect x="0.5" y="0.5" width="999" height="199" fill="none" stroke="#c9c0ae"/>
-  <rect x="8.5" y="8.5" width="983" height="183" fill="none" stroke="#e3dccd"/>
 
-  <text x="500" y="76" font-family="Georgia,'Times New Roman',Times,'DejaVu Serif',serif" font-size="46" fill="#1e3a5f" text-anchor="middle"
-        letter-spacing="1" textLength="430" lengthAdjust="spacingAndGlyphs">Prajjwal Chittori</text>
+  <rect width="1000" height="330" fill="#7a766e"/>
+  <rect x="1" y="1" width="998" height="328" fill="#d4d0c8"/>
+  <path d="M1 329 L1 1 L999 1 L997 3 L3 3 L3 327 Z" fill="#ffffff"/><path d="M999 1 L999 329 L1 329 L3 327 L997 327 L997 3 Z" fill="#5f5b54"/>
 
-  <line x1="290" y1="98"  x2="710" y2="98"  stroke="#c9c0ae"/>
-  <line x1="290" y1="101" x2="710" y2="101" stroke="#e3dccd"/>
+  <rect x="5" y="5" width="990" height="22" fill="#20406b"/>
+  <rect x="10" y="10" width="12" height="12" fill="#faf8f3" stroke="#8fa6c4"/>
+  <text x="29" y="20" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Prajjwal Chittori - Microsoft Internet Explorer</text>
+  <path d="M965 24 L965 8 L983 8 L981 10 L967 10 L967 22 Z" fill="#ffffff"/><path d="M983 8 L983 24 L965 24 L967 22 L981 22 L981 10 Z" fill="#5f5b54"/><rect x="967" y="10" width="14" height="12" fill="#d4d0c8"/><text x="974" y="20" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="9" font-weight="bold" fill="#2b2b2b" text-anchor="middle">×</text><path d="M944 24 L944 8 L962 8 L960 10 L946 10 L946 22 Z" fill="#ffffff"/><path d="M962 8 L962 24 L944 24 L946 22 L960 22 L960 10 Z" fill="#5f5b54"/><rect x="946" y="10" width="14" height="12" fill="#d4d0c8"/><text x="953" y="20" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="9" font-weight="bold" fill="#2b2b2b" text-anchor="middle">□</text><path d="M923 24 L923 8 L941 8 L939 10 L925 10 L925 22 Z" fill="#ffffff"/><path d="M941 8 L941 24 L923 24 L925 22 L939 22 L939 10 Z" fill="#5f5b54"/><rect x="925" y="10" width="14" height="12" fill="#d4d0c8"/><text x="932" y="20" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="9" font-weight="bold" fill="#2b2b2b" text-anchor="middle">_</text>
 
-  <text x="500" y="127" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#5c6b7a" text-anchor="middle"
-        letter-spacing="3.4" textLength="470" lengthAdjust="spacing">BACKEND ENGINEER · CRYPTO &amp; PAYMENTS · CREATOR</text>
+  <text x="14" y="45" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">File</text><text x="58.8" y="45" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">Edit</text><text x="103.6" y="45" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">View</text><text x="148.39999999999998" y="45" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">Favorites</text><text x="226.7" y="45" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">Tools</text><text x="278.2" y="45" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">Help</text>
+  <line x1="5" y1="51" x2="995" y2="51" stroke="#9a958c"/>
 
-  <text x="500" y="155" font-family="Georgia,'Times New Roman',Times,'DejaVu Serif',serif" font-size="14" font-style="italic" fill="#6b6357" text-anchor="middle"
-        textLength="278" lengthAdjust="spacing">ether.fi · ex-Visa · ex-Stader Labs</text>
+  <text x="16" y="72" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="12" fill="#4a463f">←</text><text x="31" y="72" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">Back</text><text x="81.8" y="72" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="12" fill="#4a463f">→</text><text x="96.8" y="72" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">Forward</text><text x="167.7" y="72" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="12" fill="#4a463f">✕</text><text x="182.7" y="72" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">Stop</text><text x="233.5" y="72" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="12" fill="#4a463f">↻</text><text x="248.5" y="72" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">Refresh</text><text x="319.4" y="72" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="12" fill="#4a463f">⌂</text><text x="334.4" y="72" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">Home</text>
+  <line x1="5" y1="82" x2="995" y2="82" stroke="#9a958c"/>
 
-  <text x="500" y="176" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="10.5" fill="#8a8275" text-anchor="middle"
-        letter-spacing="1.4" textLength="250" lengthAdjust="spacing">George Town, Cayman Islands</text>
+  <text x="14" y="102" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#4a463f">Address</text>
+  <path d="M60 108 L60 88 L908 88 L906 90 L62 90 L62 106 Z" fill="#5f5b54"/><path d="M908 88 L908 108 L60 108 L62 106 L906 106 L906 90 Z" fill="#ffffff"/>
+  <rect x="62" y="90" width="844" height="16" fill="#faf8f3"/>
+  <rect x="66" y="92" width="9" height="12" fill="#ffffff" stroke="#a9a49b"/>
+  <text x="81" y="102" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">https://github.com/pjdurden</text>
+  <path d="M912 108 L912 88 L990 88 L988 90 L914 90 L914 106 Z" fill="#ffffff"/><path d="M990 88 L990 108 L912 108 L914 106 L988 106 L988 90 Z" fill="#5f5b54"/>
+  <rect x="914" y="90" width="74" height="16" fill="#d4d0c8"/>
+  <text x="951" y="102" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">Go</text>
+
+  <path d="M6 296 L6 114 L994 114 L992 116 L8 116 L8 294 Z" fill="#5f5b54"/><path d="M994 114 L994 296 L6 296 L8 294 L992 294 L992 116 Z" fill="#ffffff"/>
+  <rect x="8" y="116" width="984" height="178" fill="#faf8f3"/>
+  <rect x="16.5" y="124.5" width="967" height="161" fill="none" stroke="#e3dccd"/>
+
+  <text x="500" y="186" font-family="Georgia,'Times New Roman',Times,'DejaVu Serif',serif" font-size="44" fill="#1e3a5f" text-anchor="middle"
+        letter-spacing="1" textLength="410" lengthAdjust="spacingAndGlyphs">Prajjwal Chittori</text>
+  <line x1="300" y1="206" x2="700" y2="206" stroke="#c9c0ae"/>
+  <line x1="300" y1="209" x2="700" y2="209" stroke="#e3dccd"/>
+  <text x="500" y="233" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="10.5" fill="#5c6b7a" text-anchor="middle"
+        letter-spacing="3.4" textLength="450" lengthAdjust="spacing">BACKEND ENGINEER · CRYPTO &amp; PAYMENTS · CREATOR</text>
+  <text x="500" y="259" font-family="Georgia,'Times New Roman',Times,'DejaVu Serif',serif" font-size="13.5" font-style="italic" fill="#6b6357" text-anchor="middle"
+        textLength="270" lengthAdjust="spacing">ether.fi · ex-Visa · ex-Stader Labs</text>
+  <text x="500" y="278" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="10" fill="#8a8275" text-anchor="middle"
+        letter-spacing="1.3" textLength="235" lengthAdjust="spacing">George Town, Cayman Islands</text>
+
+  <path d="M6 322 L6 302 L706 302 L704 304 L8 304 L8 320 Z" fill="#5f5b54"/><path d="M706 302 L706 322 L6 322 L8 320 L704 320 L704 304 Z" fill="#ffffff"/>
+  <text x="16" y="316" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b">Done</text>
+  <path d="M712 322 L712 302 L994 302 L992 304 L714 304 L714 320 Z" fill="#5f5b54"/><path d="M994 302 L994 322 L712 322 L714 320 L992 320 L992 304 Z" fill="#ffffff"/>
+  <text x="853.0" y="316" font-family="Verdana,Geneva,Tahoma,'DejaVu Sans',sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">Internet</text>
 </svg>
