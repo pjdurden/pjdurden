@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" role="img" aria-label="CODEFORCES EXPERT">
+  <title>CODEFORCES EXPERT</title>
+  <rect width="88" height="31" fill="#1f8acb"/>
+  <rect x="0.5" y="0.5" width="87" height="30" fill="none" stroke="#ffee00"/>
+  <rect x="2.5" y="2.5" width="83" height="26" fill="none" stroke="#ffee00" stroke-opacity="0.35"/>
+  <text x="44" y="14" font-family="Verdana,Geneva,Tahoma,DejaVu Sans,sans-serif" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle" textLength="60" lengthAdjust="spacingAndGlyphs">CODEFORCES</text>
+  <text x="44" y="24" font-family="Verdana,Geneva,Tahoma,DejaVu Sans,sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" textLength="36" lengthAdjust="spacingAndGlyphs">EXPERT</text>
+</svg>

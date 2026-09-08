@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" role="img" aria-label="BEST VIEWED AT 1024 x 768">
+  <title>BEST VIEWED AT 1024 x 768</title>
+  <rect width="88" height="31" fill="#000080"/>
+  <rect x="0.5" y="0.5" width="87" height="30" fill="none" stroke="#00b3ff"/>
+  <rect x="2.5" y="2.5" width="83" height="26" fill="none" stroke="#00b3ff" stroke-opacity="0.35"/>
+  <text x="44" y="14" font-family="Verdana,Geneva,Tahoma,DejaVu Sans,sans-serif" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle" textLength="78" lengthAdjust="spacingAndGlyphs">BEST VIEWED AT</text>
+  <text x="44" y="24" font-family="Verdana,Geneva,Tahoma,DejaVu Sans,sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" textLength="60" lengthAdjust="spacingAndGlyphs">1024 x 768</text>
+</svg>

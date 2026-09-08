@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" role="img" aria-label="NO COOKIES no trackers">
+  <title>NO COOKIES no trackers</title>
+  <rect width="88" height="31" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="87" height="30" fill="none" stroke="#000000"/>
+  <rect x="2.5" y="2.5" width="83" height="26" fill="none" stroke="#000000" stroke-opacity="0.35"/>
+  <text x="44" y="14" font-family="Verdana,Geneva,Tahoma,DejaVu Sans,sans-serif" font-size="8" font-weight="bold" fill="#c00000" text-anchor="middle" textLength="60" lengthAdjust="spacingAndGlyphs">NO COOKIES</text>
+  <text x="44" y="24" font-family="Verdana,Geneva,Tahoma,DejaVu Sans,sans-serif" font-size="8" fill="#c00000" text-anchor="middle" textLength="66" lengthAdjust="spacingAndGlyphs">no trackers</text>
+</svg>

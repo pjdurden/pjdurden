@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" role="img" aria-label="HAND-CODED in a text editor">
+  <title>HAND-CODED in a text editor</title>
+  <rect width="88" height="31" fill="#000000"/>
+  <rect x="0.5" y="0.5" width="87" height="30" fill="none" stroke="#00ff41"/>
+  <rect x="2.5" y="2.5" width="83" height="26" fill="none" stroke="#00ff41" stroke-opacity="0.35"/>
+  <text x="44" y="14" font-family="Verdana,Geneva,Tahoma,DejaVu Sans,sans-serif" font-size="8" font-weight="bold" fill="#00ff41" text-anchor="middle" textLength="60" lengthAdjust="spacingAndGlyphs">HAND-CODED</text>
+  <text x="44" y="24" font-family="Verdana,Geneva,Tahoma,DejaVu Sans,sans-serif" font-size="8" fill="#00ff41" text-anchor="middle" textLength="78" lengthAdjust="spacingAndGlyphs">in a text editor</text>
+</svg>

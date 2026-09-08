@@ -1,40 +1,149 @@
-<h1 align="center">Prajjwal Chittori</h1>
+<div align="center">
 
-<p align="center">
-  Crypto &amp; Payments Backend Engineer - DeFi &amp; Liquid Restaking · On-chain Settlement · Card &amp; Payment Rails
-</p>
+<a href="https://prajj.com/"><img src="assets/retro/banner.svg" width="100%" alt="Prajjwal Chittori - Backend Engineer :: Crypto x Payments :: Creator"></a>
 
-<p align="center">
-  Liquid staking &amp; restaking &nbsp;·&nbsp; On-chain ⇄ card settlement &nbsp;·&nbsp; Cross-border payments &nbsp;·&nbsp; Stablecoins &nbsp;·&nbsp; Smart contracts (EVM / Solana / CosmWasm)
-</p>
+<a href="#home"><img src="https://img.shields.io/badge/%F0%9F%8F%A0-Home-d4d0c8?style=flat-square&labelColor=808080" alt="Home"></a> <a href="#experience"><img src="https://img.shields.io/badge/%F0%9F%92%BC-Experience-d4d0c8?style=flat-square&labelColor=808080" alt="Experience"></a> <a href="#research"><img src="https://img.shields.io/badge/%F0%9F%94%AC-Research-d4d0c8?style=flat-square&labelColor=808080" alt="Research"></a> <a href="#opensource"><img src="https://img.shields.io/badge/%F0%9F%92%BB-Open%20Source-d4d0c8?style=flat-square&labelColor=808080" alt="Open Source"></a> <a href="#companies"><img src="https://img.shields.io/badge/%F0%9F%8F%A2-Companies-d4d0c8?style=flat-square&labelColor=808080" alt="Companies"></a> <a href="#creator"><img src="https://img.shields.io/badge/%F0%9F%8E%AC-Creator-d4d0c8?style=flat-square&labelColor=808080" alt="Creator"></a> <a href="#projects"><img src="https://img.shields.io/badge/%F0%9F%94%A8-Projects-d4d0c8?style=flat-square&labelColor=808080" alt="Projects"></a> <a href="https://prajj.com/articles/"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Writing-d4d0c8?style=flat-square&labelColor=808080" alt="Writing"></a> <a href="https://prajj.com/fintech/"><img src="https://img.shields.io/badge/%F0%9F%92%B0-Fintech%2050-d4d0c8?style=flat-square&labelColor=808080" alt="Fintech 50"></a>
 
-<p align="center">
-  <a href="https://prajj.com/"><img src="https://img.shields.io/badge/prajj.com-0c875a?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"/></a>
-  <a href="https://www.linkedin.com/in/prajjwal-chittori/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://codeforces.com/profile/pjdurden"><img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces Expert"/></a>
-  <a href="mailto:prajjwalchittoriwork@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-</p>
+<img src="assets/retro/construction.svg" width="100%" alt="Under construction - this page is perpetually unfinished, so is its author - since 1999">
 
-<p align="center">
-  <sub><code>$ 25 merged upstream PRs · 17 projects · 3 papers · $500M+ TVL shipped</code></sub>
-</p>
+</div>
 
----
+```
+ /=========================== *** THE NUMBERS *** ============================\
+ |                                                                            |
+ |  INSTAGRAM        YOUTUBE         LINKEDIN        GITHUB                   |
+ |  +-----------+    +-----------+   +-----------+   +-----------+            |
+ |  |  22,000+  |    |   7,860   |   |  5,000+   |   |   live >  |            |
+ |  +-----------+    +-----------+   +-----------+   +-----------+            |
+ |   followers        subscribers     followers       followers               |
+ |                                                                            |
+ |  >>  2 0 , 0 0 0 , 0 0 0 +   T O T A L   V I E W S  <<                     |
+ |      across Instagram & YouTube - one format, run with                     |
+ |      relentless consistency                                                |
+ |                                                                            |
+ \============================================================================/
+```
 
-## Summary
+<div align="center">
 
-Backend engineer specializing in the intersection of crypto infrastructure and traditional payments - systems where on-chain state must reconcile with real-world money movement to the cent.
+<a href="https://www.instagram.com/prajjwalsinghchittori"><img src="https://img.shields.io/badge/Instagram-22K%2B-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a> <a href="https://www.youtube.com/@prajjwalsinghchittori"><img src="https://img.shields.io/badge/YouTube-7.8K-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube"></a> <a href="https://www.linkedin.com/in/prajjwal-chittori/"><img src="https://img.shields.io/badge/LinkedIn-5K%2B-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://github.com/pjdurden"><img src="https://img.shields.io/github/followers/pjdurden?style=flat-square&label=GitHub&labelColor=24292e&color=0c875a" alt="GitHub followers"></a> <a href="https://codeforces.com/profile/pjdurden"><img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces Expert"></a> <a href="https://prajj.com/"><img src="https://img.shields.io/badge/prajj.com-0c875a?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a> <a href="mailto:prajjwalchittoriwork@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 
-My work spans both sides of that seam: founding-team engineer at a liquid-staking protocol that scaled past **$500M+ in staked assets**, four years on **cross-border payments and the stablecoin initiative at Visa**, and now **card and vault products at [ether.fi](https://www.ether.fi/)** - a non-custodial Visa crypto card built on liquid-restaking infrastructure.
+</div>
 
-- **Currently:** Senior Backend Engineer at ether.fi - Cash (card) & Vault products
-- **Core stack:** Go, Rust, Solidity, TypeScript, Java/Spring, Ethereum/EVM, EigenLayer, Kafka, PostgreSQL, Redis
-- **Education:** B.Tech, Computer Science - Delhi College of Engineering (now Delhi Technological University)
-- **Focus areas:** liquid staking & restaking, on-chain/off-chain settlement, card & payment rails, cross-border payments, stablecoins, smart contracts (EVM / Solana / CosmWasm) - plus AI inference infrastructure (vLLM) on the open-source side
+<img src="assets/retro/hr.svg" width="100%" alt="">
 
----
+<table>
+<tr>
+<td width="34%" valign="top">
 
-## Experience &nbsp;<sub><code>2021 - now</code></sub>
+**Prajjwal** &nbsp;<sub><code>26 / M / KY</code></sub>
+
+<img src="https://github.com/pjdurden.png?size=200" width="150" alt="prajjwal.jpg">
+
+<sub><code>prajjwal.jpg &nbsp; 460x460</code></sub>
+
+<img src="https://img.shields.io/badge/%E2%97%8F-ONLINE%20NOW!-0c875a?style=flat-square&labelColor=006400" alt="Online now">
+
+`✈ Currently in George Town, Cayman Islands 🏝`
+
+♫ **NOW PLAYING** ♫ &nbsp;<code>canon_in_d_REMIX.mid</code>
+
+<sub><code>▶ PLAY</code> &nbsp;<code>■ STOP</code> &nbsp;(sorry, GitHub took the sound card)</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**✉ Contacting Prajjwal ✉**
+
+<a href="mailto:prajjwalchittoriwork@gmail.com"><img src="https://img.shields.io/badge/%E2%9C%89-Send%20Message-d4d0c8?style=flat-square&labelColor=808080" alt="Send Message"></a>
+<a href="https://www.linkedin.com/in/prajjwal-chittori/"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Add%20to%20Friends-d4d0c8?style=flat-square&labelColor=808080" alt="Add to Friends"></a>
+<a href="https://github.com/pjdurden?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%92%BB-View%20My%20Code-d4d0c8?style=flat-square&labelColor=808080" alt="View My Code"></a>
+<a href="https://www.instagram.com/prajjwalsinghchittori"><img src="https://img.shields.io/badge/%F0%9F%93%B7-My%20Pictures-d4d0c8?style=flat-square&labelColor=808080" alt="My Pictures"></a>
+<a href="https://www.youtube.com/@prajjwalsinghchittori"><img src="https://img.shields.io/badge/%F0%9F%93%BA-My%20Videos-d4d0c8?style=flat-square&labelColor=808080" alt="My Videos"></a>
+<a href="https://prajj.com/articles/"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Read%20My%20Blog-d4d0c8?style=flat-square&labelColor=808080" alt="Read My Blog"></a>
+<a href="https://github.com/pjdurden?tab=repositories&sort=stargazers"><img src="https://img.shields.io/badge/%E2%9C%8D-Sign%20My%20Guestbook-d4d0c8?style=flat-square&labelColor=808080" alt="Sign My Guestbook"></a>
+
+</td>
+<td width="33%" valign="top">
+
+**What's New** &nbsp;<sub><code>🔥 hot</code></sub>
+
+`NEW!` Merged an autoscaler starvation fix in [Ray #65299](https://github.com/ray-project/ray/pull/65299)
+
+`NEW!` Swept a batched-inference mask bug out of 8 models in [candle #3879](https://github.com/huggingface/candle/pull/3879)
+
+`MERGED` Stopped an RDMA endpoint-rebuild storm in [Mooncake #3387](https://github.com/kvcache-ai/Mooncake/pull/3387)
+
+`PAPER` Cache-aware request planning for black-box LLM APIs - [DOI](https://doi.org/10.5281/zenodo.21386594)
+
+`PAPER` Executable correctness under KV-cache compression - [DOI](https://doi.org/10.5281/zenodo.20805562)
+
+</td>
+</tr>
+</table>
+
+> **Quote of the Day**
+>
+> *You have power over your mind, not outside events. Realize this, and you will find strength.*
+>
+> - Marcus Aurelius
+
+<img src="assets/retro/hr.svg" width="100%" alt="">
+
+<a name="home"></a>
+
+## ░▒▓ 👤 Prajjwal's Blurbs ▓▒░ &nbsp;<sub><code>read me first</code></sub>
+
+**About me:**
+
+Crypto and payments backend engineer. ex-Stader Labs (founding engineer → $500M+ TVL liquid staking), ex-Visa cross-border payments and stablecoins, now Senior Backend Engineer at [ether.fi](https://www.ether.fi/) building the bridge between a Visa card and on-chain settlement. I fix bugs in the infrastructure everybody else builds on - blockchain (Optimism, revm, alloy, celestia-node, ethrex) and AI inference (vLLM, SGLang, candle, mistral.rs, Mooncake, Ray). On the side I explain philosophy to 22,000+ people in 45-second videos.
+
+**Who I'd like to meet:**
+
+People building inference engines, payment rails, and anything with a hard correctness invariant in it. Also anyone who still remembers what a page like this used to look like.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Prajjwal's Details**
+
+| | |
+|---|---|
+| **Status** | Employed & building |
+| **Here for** | Serious infrastructure, Networking |
+| **Age** | 26 |
+| **Location** | George Town, Cayman Islands |
+| **Hometown** | Delhi, India |
+| **Occupation** | Senior Backend Engineer, ether.fi |
+| **Education** | Delhi Technological University, B.Tech CSE |
+| **Languages** | Go, Rust, Java, Solidity, Python, TypeScript |
+| **Chess** | FIDE-registered, 1600+ |
+| **Codeforces** | Expert · ~8,000 problems |
+
+</td>
+<td width="50%" valign="top">
+
+**Prajjwal's Interests**
+
+| | |
+|---|---|
+| **General** | Liquid restaking, payment rails, LLM inference engines, KV caches, order books |
+| **Music** | The fan curve of a GPU under load |
+| **Books** | Philosophy, mostly. Then business biographies. |
+| **Heroes** | People who ship the boring layer everyone else builds on |
+| **Movies** | Anything with a heist and a spreadsheet |
+| **Stack** | Go · Rust · Solidity · Java/Spring · TypeScript · Ethereum/EVM · EigenLayer · Kafka · PostgreSQL · Redis |
+
+</td>
+</tr>
+</table>
+
+<img src="assets/retro/hr.svg" width="100%" alt="">
+
+<a name="experience"></a>
+
+## ░▒▓ 💼 Work Experience ▓▒░ &nbsp;<sub><code>2021 - now</code></sub>
 
 *Backend engineering across crypto and global payments.*
 
@@ -78,9 +187,11 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 </details>
 
----
+<img src="assets/retro/hr.svg" width="100%" alt="">
 
-## Research &nbsp;<sub><code>3 papers</code></sub>
+<a name="research"></a>
+
+## ░▒▓ 🔬 Research Papers ▓▒░ &nbsp;<sub><code>3 published</code></sub>
 
 *Published, peer-citable work.*
 
@@ -109,9 +220,20 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 </details>
 
----
+<img src="assets/retro/hr.svg" width="100%" alt="">
 
-## Open Source &nbsp;<sub><code>25 merged · 17 projects</code></sub>
+<a name="opensource"></a>
+
+## ░▒▓ 💻 Open Source ▓▒░ &nbsp;<sub><code>25 merged · 17 projects</code></sub>
+
+```
+ /=================== * PRAJJWAL'S TOP 8 REPOS * ===================\
+ |  1. vLLM ............... 1 merged    5. Ray .......... 1 merged  |
+ |  2. Mooncake ........... 3 merged    6. Optimism ..... 1 merged  |
+ |  3. candle ............. 2 merged    7. revm ......... 1 merged  |
+ |  4. SGLang ............. 1 merged    8. Meilisearch .. 1 merged  |
+ \==================================================================/
+```
 
 *Merged work on the infrastructure other people build on. Star counts are live; expand a project for the actual bug.*
 
@@ -335,9 +457,53 @@ The **distributed compute framework** underneath much of the ML training and ser
 
 </details>
 
----
+<img src="assets/retro/hr.svg" width="100%" alt="">
 
-## Personal Projects &nbsp;<sub><code>8 builds</code></sub>
+<a name="companies"></a>
+
+## ░▒▓ 🏢 Companies I Founded ▓▒░ &nbsp;<sub><code>2 ventures</code></sub>
+
+*Things I started from zero and shipped to real customers.*
+
+<details open>
+<summary><b>KuruX Enterprises</b>&nbsp; <sub><code>2025</code></sub></summary>
+
+A sustainable-cleaning consumer brand (**NAMELESS** / **WipeZilla**), built solo end to end - manufacturing, compliance, listings. **₹2L revenue in month one**; now run by family. [wipezilla.in](https://wipezilla.in)
+
+</details>
+<details open>
+<summary><b>Bizpedia</b>&nbsp; <sub><code>2024</code></sub></summary>
+
+A free, open-source wiki for the world of business - structured, contributor-driven reference. [bizpedia.org](https://bizpedia.org)
+
+</details>
+
+<img src="assets/retro/hr.svg" width="100%" alt="">
+
+<a name="creator"></a>
+
+## ░▒▓ 🎬 Creator ▓▒░ &nbsp;<sub><code>22K+ following · 20M+ views</code></sub>
+
+*Short-form philosophy and long-form takes - an audience built on one consistent format.*
+
+<details open>
+<summary><b>@prajjwalsinghchittori - philosophy, short-form</b>&nbsp; <sub><code>active</code></sub></summary>
+
+An English quote, explained in Hindi. **22,000+ followers and 20,000,000+ views** across Instagram and YouTube - one format, run with relentless consistency. [Instagram](https://www.instagram.com/prajjwalsinghchittori) · [YouTube](https://www.youtube.com/@prajjwalsinghchittori)
+
+</details>
+<details>
+<summary><b>What I Think About the Top 50 Fintech Companies of All Time</b>&nbsp; <sub><code>series</code></sub></summary>
+
+Vision over financials - 50 companies, what each got right and wrong, and the founders behind them. [prajj.com/fintech](https://prajj.com/fintech/)
+
+</details>
+
+<img src="assets/retro/hr.svg" width="100%" alt="">
+
+<a name="projects"></a>
+
+## ░▒▓ 🔨 Side Projects ▓▒░ &nbsp;<sub><code>8 builds</code></sub>
 
 *Smaller things built to learn or to prove a point.*
 
@@ -390,9 +556,11 @@ Real-time identity and account verification API for cross-border payments. [pjdu
 
 </details>
 
----
+<img src="assets/retro/hr.svg" width="100%" alt="">
 
-## Technical Skills &nbsp;<sub><code>stack</code></sub>
+<a name="skills"></a>
+
+## ░▒▓ 🛠 Technical Skills ▓▒░ &nbsp;<sub><code>stack</code></sub>
 
 <details>
 <summary><b>Languages, chains, infra and ML stack</b></summary>
@@ -436,9 +604,11 @@ Real-time identity and account verification API for cross-border payments. [pjdu
 
 </details>
 
----
+<img src="assets/retro/hr.svg" width="100%" alt="">
 
-## Competitive Programming &nbsp;<sub><code>Codeforces Expert</code></sub>
+<a name="competitive"></a>
+
+## ░▒▓ 🏆 Competitive ▓▒░ &nbsp;<sub><code>CF Expert · FIDE 1600+</code></sub>
 
 <details>
 <summary><b>Ratings, contests and mentoring</b></summary>
@@ -453,3 +623,56 @@ Achieved **Codeforces Expert** during university (pre-2022, before AI coding ass
 - Mentored 300+ students in algorithms and software engineering through [GirlScript](https://www.girlscript.tech/about).
 
 </details>
+
+<img src="assets/retro/hr.svg" width="100%" alt="">
+
+<a name="writing"></a>
+
+## ░▒▓ 📝 My Writing ▓▒░ &nbsp;<sub><code>106 essays</code></sub>
+
+*106 essays and counting.*
+
+- [Taking a Liquid-Staking Protocol Past $500M+ TVL](https://prajj.com/articles/) - founding-engineer lessons
+- [₹2 Lakh in Month One](https://prajj.com/articles/) - building a physical brand solo
+- [From Codeforces Expert to ~8,000 Problems](https://prajj.com/articles/) - a practice system
+- [How I Built a 22K Audience With One Format](https://prajj.com/articles/) - consistency over creativity
+
+[All writing →](https://prajj.com/articles/)
+
+<img src="assets/retro/hr.svg" width="100%" alt="">
+
+<div align="center">
+
+<a name="awards"></a>
+
+## ░▒▓ 🎖 Awards & Affiliations ▓▒░ &nbsp;<sub><code>88x31 forever</code></sub>
+
+<img src="assets/retro/88x31/handcoded.svg" alt="Hand-coded in a text editor"> <img src="assets/retro/88x31/1024x768.svg" alt="Best viewed at 1024 x 768"> <img src="assets/retro/88x31/nocookies.svg" alt="No cookies, no trackers"> <a href="https://codeforces.com/profile/pjdurden"><img src="assets/retro/88x31/codeforces.svg" alt="Codeforces Expert"></a> <a href="https://wipezilla.in"><img src="assets/retro/88x31/kurux.svg" alt="KuruX Enterprises"></a> <a href="https://bizpedia.org"><img src="assets/retro/88x31/bizpedia.svg" alt="Bizpedia.org"></a>
+
+<sub>⭐ Featured by **Y Combinator Startup School** (KuruX) ⭐ &nbsp;·&nbsp; 🎤 Guest on The Irusha Podcast - *"Blockchain startup ecosystem in India"* (2022)</sub>
+
+<br>
+
+**« prev &nbsp;|&nbsp; THE AI-INFRA WEBRING &nbsp;|&nbsp; next »** &nbsp;<sub><code>JOIN TODAY!!</code></sub>
+
+<br>
+
+<img src="assets/retro/counter.svg" alt="Visitor counter: 20,000,000+ total views">
+
+<sub>*counter actually installed in 2026. thanks for stopping by!!</sub>
+
+<img src="assets/retro/hr.svg" width="100%" alt="">
+
+<b>~ Prajjwal Chittori ~</b>
+
+<sub>engineer · founder of KuruX Enterprises and Bizpedia · philosophy creator with 20M+ views</sub>
+
+<a href="mailto:prajjwalchittoriwork@gmail.com">prajjwalchittoriwork@gmail.com</a> &nbsp;|&nbsp; <a href="https://prajj.com/">prajj.com</a> &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/prajjwal-chittori/">LinkedIn</a> &nbsp;|&nbsp; <a href="https://www.instagram.com/prajjwalsinghchittori">Instagram</a> &nbsp;|&nbsp; <a href="https://www.youtube.com/@prajjwalsinghchittori">YouTube</a> &nbsp;|&nbsp; <a href="https://prajj.com/fintech/">Top 50 Fintech</a>
+
+<sub>This page is best viewed in Netscape Navigator 4.7 or Internet Explorer 6 at 1024×768 on a 56k modem.</sub>
+
+<sub>© 1999-2026 Prajjwal Chittori. All rights reserved, obviously.</sub>
+
+**▼ THANKS FOR VISITING ▼**
+
+</div>
