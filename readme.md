@@ -48,9 +48,9 @@
 
 <sub>AUG 2026</sub> &nbsp; An RDMA endpoint-rebuild storm stopped in [Mooncake #3387](https://github.com/kvcache-ai/Mooncake/pull/3387)
 
-<sub>PAPER</sub> &nbsp; [Cache-aware request planning for black-box LLM APIs](https://doi.org/10.5281/zenodo.21386594)
+<sub>PREPRINT</sub> &nbsp; [Cache-aware request planning for black-box LLM APIs](https://doi.org/10.5281/zenodo.21386594)
 
-<sub>PAPER</sub> &nbsp; [Executable correctness under KV-cache compression](https://doi.org/10.5281/zenodo.20805562)
+<sub>PREPRINT</sub> &nbsp; [Executable correctness under KV-cache compression](https://doi.org/10.5281/zenodo.20805562)
 
 </td>
 </tr>
@@ -154,9 +154,9 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 <a name="research"></a>
 
-## Research Papers &nbsp;<sub>3 published</sub>
+## Research &nbsp;<sub>3 preprints</sub>
 
-*Published, peer-citable work.*
+*Preprints, each with a DOI and public code.*
 
 <details>
 <summary><b>Cache-aware request planning for black-box LLM APIs</b>&nbsp; <sub><code>2026 · preprint</code></sub></summary>
@@ -175,7 +175,7 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 </details>
 <details>
-<summary><b>StragglerPolicy - straggler-aware decentralized training</b>&nbsp; <sub><code>2026 · paper</code></sub></summary>
+<summary><b>StragglerPolicy - straggler-aware decentralized training</b>&nbsp; <sub><code>2026 · preprint</code></sub></summary>
 
 **Straggler-Aware Elastic Membership for Decentralized Training.** A zero-GPU discrete-event simulator of DiLoCo-style decentralized ML training plus a straggler-aware membership policy for *slow-but-alive* nodes that existing decentralized-training stacks don't handle. **4.59x faster** than the baseline on a persistent-straggler scenario, validated against a `torch.distributed`/gloo DiLoCo loop.
 
@@ -477,7 +477,7 @@ A canary for **silent KV-cache-compression failures** - functional accuracy (cod
 <details>
 <summary><b>churn - StragglerPolicy</b>&nbsp; <sub><code>decentralized training</code></sub></summary>
 
-Deterministic discrete-event simulator of elastic-membership decentralized ML training, plus the straggler-aware membership policy behind the paper above. [pjdurden/churn](https://github.com/pjdurden/churn)
+Deterministic discrete-event simulator of elastic-membership decentralized ML training, plus the straggler-aware membership policy behind the preprint above. [pjdurden/churn](https://github.com/pjdurden/churn)
 
 </details>
 <details>
