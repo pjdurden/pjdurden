@@ -25,18 +25,7 @@
 
 <table>
 <tr>
-<td width="30%" valign="top">
-
-<img src="https://github.com/pjdurden.png?size=200" width="150" alt="Prajjwal Chittori">
-
-**Currently**
-
-Senior Backend Engineer at [ether.fi](https://www.ether.fi/), Cash and Vault products. Writing in George Town, Cayman Islands.
-
-<a href="mailto:prajjwalchittoriwork@gmail.com">Email</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/prajjwal-chittori/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/pjdurden?tab=repositories">Repositories</a> &nbsp;·&nbsp; <a href="https://prajj.com/">prajj.com</a>
-
-</td>
-<td width="36%" valign="top">
+<td width="31%" valign="top">
 
 | At a Glance | |
 |---|---|
@@ -49,7 +38,7 @@ Senior Backend Engineer at [ether.fi](https://www.ether.fi/), Cash and Vault pro
 <sub>One format, run with relentless consistency.</sub>
 
 </td>
-<td width="34%" valign="top">
+<td width="69%" valign="top">
 
 **What's New**
 
@@ -66,12 +55,6 @@ Senior Backend Engineer at [ether.fi](https://www.ether.fi/), Cash and Vault pro
 </td>
 </tr>
 </table>
-
-<div align="center">
-
-<a href="https://www.instagram.com/prajjwalsinghchittori"><img src="https://img.shields.io/badge/Instagram-22K%2B-5c6b7a?style=flat-square&logo=instagram&logoColor=white&labelColor=44403c" alt="Instagram"></a> <a href="https://www.youtube.com/@prajjwalsinghchittori"><img src="https://img.shields.io/badge/YouTube-7.8K-5c6b7a?style=flat-square&logo=youtube&logoColor=white&labelColor=44403c" alt="YouTube"></a> <a href="https://www.linkedin.com/in/prajjwal-chittori/"><img src="https://img.shields.io/badge/LinkedIn-5K%2B-5c6b7a?style=flat-square&logo=linkedin&logoColor=white&labelColor=44403c" alt="LinkedIn"></a> <a href="https://github.com/pjdurden"><img src="https://img.shields.io/github/followers/pjdurden?style=flat-square&label=GitHub&labelColor=44403c&color=78716c" alt="GitHub followers"></a> <a href="https://codeforces.com/profile/pjdurden"><img src="https://img.shields.io/badge/Codeforces-Expert-5c6b7a?style=flat-square&logo=codeforces&logoColor=white&labelColor=44403c" alt="Codeforces Expert"></a>
-
-</div>
 
 > *You have power over your mind, not outside events. Realize this, and you will find strength.*
 >
