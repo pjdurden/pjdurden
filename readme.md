@@ -1,12 +1,27 @@
 <div align="center">
 
-<a href="https://prajj.com/"><img src="assets/retro/masthead.svg" width="100%" alt="Prajjwal Chittori - Backend Engineer, Crypto and Payments, Creator"></a>
+<a href="https://prajj.com/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/swiss/masthead-dark.svg">
+    <img src="assets/swiss/masthead-light.svg" width="100%" alt="Prajjwal Chittori - Backend Engineer, Crypto and Payments, Creator">
+  </picture>
+</a>
 
-<a href="#home"><img src="https://img.shields.io/badge/About-1e3a5f?style=flat-square" alt="About"></a> <a href="#experience"><img src="https://img.shields.io/badge/Experience-1e3a5f?style=flat-square" alt="Experience"></a> <a href="#research"><img src="https://img.shields.io/badge/Research-1e3a5f?style=flat-square" alt="Research"></a> <a href="#opensource"><img src="https://img.shields.io/badge/Open%20Source-1e3a5f?style=flat-square" alt="Open Source"></a> <a href="#companies"><img src="https://img.shields.io/badge/Companies-1e3a5f?style=flat-square" alt="Companies"></a> <a href="#creator"><img src="https://img.shields.io/badge/Creator-1e3a5f?style=flat-square" alt="Creator"></a> <a href="#projects"><img src="https://img.shields.io/badge/Projects-1e3a5f?style=flat-square" alt="Projects"></a> <a href="https://prajj.com/articles/"><img src="https://img.shields.io/badge/Writing-1e3a5f?style=flat-square" alt="Writing"></a> <a href="https://prajj.com/fintech/"><img src="https://img.shields.io/badge/Fintech%2050-1e3a5f?style=flat-square" alt="Fintech 50"></a>
+<sub>
+  <a href="#about">About</a> &nbsp;·&nbsp;
+  <a href="#experience">Experience</a> &nbsp;·&nbsp;
+  <a href="#research">Research</a> &nbsp;·&nbsp;
+  <a href="#opensource">Open Source</a> &nbsp;·&nbsp;
+  <a href="#companies">Companies</a> &nbsp;·&nbsp;
+  <a href="#creator">Creator</a> &nbsp;·&nbsp;
+  <a href="#projects">Projects</a> &nbsp;·&nbsp;
+  <a href="https://prajj.com/articles/">Writing</a> &nbsp;·&nbsp;
+  <a href="https://prajj.com/fintech/">Fintech 50</a>
+</sub>
 
 </div>
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <table>
 <tr>
@@ -54,7 +69,7 @@ Senior Backend Engineer at [ether.fi](https://www.ether.fi/), Cash and Vault pro
 
 <div align="center">
 
-<a href="https://www.instagram.com/prajjwalsinghchittori"><img src="https://img.shields.io/badge/Instagram-22K%2B-5c6b7a?style=flat-square&logo=instagram&logoColor=white&labelColor=1e3a5f" alt="Instagram"></a> <a href="https://www.youtube.com/@prajjwalsinghchittori"><img src="https://img.shields.io/badge/YouTube-7.8K-5c6b7a?style=flat-square&logo=youtube&logoColor=white&labelColor=1e3a5f" alt="YouTube"></a> <a href="https://www.linkedin.com/in/prajjwal-chittori/"><img src="https://img.shields.io/badge/LinkedIn-5K%2B-5c6b7a?style=flat-square&logo=linkedin&logoColor=white&labelColor=1e3a5f" alt="LinkedIn"></a> <a href="https://github.com/pjdurden"><img src="https://img.shields.io/github/followers/pjdurden?style=flat-square&label=GitHub&labelColor=1e3a5f&color=5c6b7a" alt="GitHub followers"></a> <a href="https://codeforces.com/profile/pjdurden"><img src="https://img.shields.io/badge/Codeforces-Expert-5c6b7a?style=flat-square&logo=codeforces&logoColor=white&labelColor=1e3a5f" alt="Codeforces Expert"></a>
+<a href="https://www.instagram.com/prajjwalsinghchittori"><img src="https://img.shields.io/badge/Instagram-22K%2B-5c6b7a?style=flat-square&logo=instagram&logoColor=white&labelColor=44403c" alt="Instagram"></a> <a href="https://www.youtube.com/@prajjwalsinghchittori"><img src="https://img.shields.io/badge/YouTube-7.8K-5c6b7a?style=flat-square&logo=youtube&logoColor=white&labelColor=44403c" alt="YouTube"></a> <a href="https://www.linkedin.com/in/prajjwal-chittori/"><img src="https://img.shields.io/badge/LinkedIn-5K%2B-5c6b7a?style=flat-square&logo=linkedin&logoColor=white&labelColor=44403c" alt="LinkedIn"></a> <a href="https://github.com/pjdurden"><img src="https://img.shields.io/github/followers/pjdurden?style=flat-square&label=GitHub&labelColor=44403c&color=78716c" alt="GitHub followers"></a> <a href="https://codeforces.com/profile/pjdurden"><img src="https://img.shields.io/badge/Codeforces-Expert-5c6b7a?style=flat-square&logo=codeforces&logoColor=white&labelColor=44403c" alt="Codeforces Expert"></a>
 
 </div>
 
@@ -62,7 +77,7 @@ Senior Backend Engineer at [ether.fi](https://www.ether.fi/), Cash and Vault pro
 >
 > Marcus Aurelius
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <a name="home"></a>
 
@@ -72,7 +87,7 @@ Crypto and payments backend engineer. ex-Stader Labs (founding engineer → $500
 
 **Who I'd like to hear from**
 
-People building inference engines, payment rails, and anything with a hard correctness invariant in it. Also anyone who still remembers what a page like this used to look like.
+People building inference engines, payment rails, and anything with a hard correctness invariant in it.
 
 <table>
 <tr>
@@ -104,7 +119,7 @@ People building inference engines, payment rails, and anything with a hard corre
 </tr>
 </table>
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <a name="experience"></a>
 
@@ -152,7 +167,7 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 </details>
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <a name="research"></a>
 
@@ -185,7 +200,7 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 </details>
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <a name="opensource"></a>
 
@@ -204,95 +219,95 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 <tr>
 <td align="center" width="25%">
 <a href="https://github.com/vllm-project/vllm"><img src="https://github.com/vllm-project.png?size=96" width="44" height="44" alt="vLLM"><br><b>vLLM</b></a><br>
-<img src="https://img.shields.io/github/stars/vllm-project/vllm?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/vllm-project/vllm?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/meilisearch/meilisearch"><img src="https://github.com/meilisearch.png?size=96" width="44" height="44" alt="Meilisearch"><br><b>Meilisearch</b></a><br>
-<img src="https://img.shields.io/github/stars/meilisearch/meilisearch?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/meilisearch/meilisearch?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/sgl-project/sglang"><img src="https://github.com/sgl-project.png?size=96" width="44" height="44" alt="SGLang"><br><b>SGLang</b></a><br>
-<img src="https://img.shields.io/github/stars/sgl-project/sglang?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/sgl-project/sglang?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/huggingface/candle"><img src="https://github.com/huggingface.png?size=96" width="44" height="44" alt="candle"><br><b>candle</b></a><br>
-<img src="https://img.shields.io/github/stars/huggingface/candle?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/huggingface/candle?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>2 merged</sub>
 </td>
 </tr>
 <tr>
 <td align="center" width="25%">
 <a href="https://github.com/mark3labs/mcp-go"><img src="https://github.com/mark3labs.png?size=96" width="44" height="44" alt="mcp-go"><br><b>mcp-go</b></a><br>
-<img src="https://img.shields.io/github/stars/mark3labs/mcp-go?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/mark3labs/mcp-go?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/EricLBuehler/mistral.rs"><img src="https://github.com/EricLBuehler.png?size=96" width="44" height="44" alt="mistral.rs"><br><b>mistral.rs</b></a><br>
-<img src="https://img.shields.io/github/stars/EricLBuehler/mistral.rs?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/EricLBuehler/mistral.rs?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>2 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/ethereum-optimism/optimism"><img src="https://github.com/ethereum-optimism.png?size=96" width="44" height="44" alt="Optimism"><br><b>Optimism</b></a><br>
-<img src="https://img.shields.io/github/stars/ethereum-optimism/optimism?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/ethereum-optimism/optimism?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/kvcache-ai/Mooncake"><img src="https://github.com/kvcache-ai.png?size=96" width="44" height="44" alt="Mooncake"><br><b>Mooncake</b></a><br>
-<img src="https://img.shields.io/github/stars/kvcache-ai/Mooncake?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/kvcache-ai/Mooncake?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>3 merged</sub>
 </td>
 </tr>
 <tr>
 <td align="center" width="25%">
 <a href="https://github.com/vllm-project/aibrix"><img src="https://github.com/vllm-project.png?size=96" width="44" height="44" alt="AIBrix"><br><b>AIBrix</b></a><br>
-<img src="https://img.shields.io/github/stars/vllm-project/aibrix?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/vllm-project/aibrix?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>2 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/bluealloy/revm"><img src="https://github.com/bluealloy.png?size=96" width="44" height="44" alt="revm"><br><b>revm</b></a><br>
-<img src="https://img.shields.io/github/stars/bluealloy/revm?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/bluealloy/revm?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/envoyproxy/ai-gateway"><img src="https://github.com/envoyproxy.png?size=96" width="44" height="44" alt="Envoy AI Gateway"><br><b>Envoy AI Gateway</b></a><br>
-<img src="https://img.shields.io/github/stars/envoyproxy/ai-gateway?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/envoyproxy/ai-gateway?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>2 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/celestiaorg/celestia-node"><img src="https://github.com/celestiaorg.png?size=96" width="44" height="44" alt="celestia-node"><br><b>celestia-node</b></a><br>
-<img src="https://img.shields.io/github/stars/celestiaorg/celestia-node?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/celestiaorg/celestia-node?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
 </tr>
 <tr>
 <td align="center" width="25%">
 <a href="https://github.com/alloy-rs/core"><img src="https://github.com/alloy-rs.png?size=96" width="44" height="44" alt="alloy"><br><b>alloy</b></a><br>
-<img src="https://img.shields.io/github/stars/alloy-rs/core?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/alloy-rs/core?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/lambdaclass/ethrex"><img src="https://github.com/lambdaclass.png?size=96" width="44" height="44" alt="ethrex"><br><b>ethrex</b></a><br>
-<img src="https://img.shields.io/github/stars/lambdaclass/ethrex?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/lambdaclass/ethrex?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/guidance-ai/llguidance"><img src="https://github.com/guidance-ai.png?size=96" width="44" height="44" alt="llguidance"><br><b>llguidance</b></a><br>
-<img src="https://img.shields.io/github/stars/guidance-ai/llguidance?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/guidance-ai/llguidance?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>2 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/dottxt-ai/outlines-core"><img src="https://github.com/dottxt-ai.png?size=96" width="44" height="44" alt="outlines-core"><br><b>outlines-core</b></a><br>
-<img src="https://img.shields.io/github/stars/dottxt-ai/outlines-core?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/dottxt-ai/outlines-core?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>2 merged</sub>
 </td>
 </tr>
 <tr>
 <td align="center" width="25%">
 <a href="https://github.com/ray-project/ray"><img src="https://github.com/ray-project.png?size=96" width="44" height="44" alt="Ray"><br><b>Ray</b></a><br>
-<img src="https://img.shields.io/github/stars/ray-project/ray?style=flat-square&label=%E2%98%85&labelColor=1e3a5f&color=5c6b7a&cacheSeconds=21600" alt="stars"><br>
+<img src="https://img.shields.io/github/stars/ray-project/ray?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
 <td align="center" width="25%"></td>
@@ -420,7 +435,7 @@ The **distributed compute framework** underneath much of the ML training and ser
 
 </details>
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <a name="companies"></a>
 
@@ -441,7 +456,7 @@ A free, open-source wiki for the world of business - structured, contributor-dri
 
 </details>
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <a name="creator"></a>
 
@@ -462,7 +477,7 @@ Vision over financials - 50 companies, what each got right and wrong, and the fo
 
 </details>
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <a name="projects"></a>
 
@@ -519,55 +534,20 @@ Real-time identity and account verification API for cross-border payments. [pjdu
 
 </details>
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <a name="skills"></a>
 
 ## Technical Skills &nbsp;<sub>stack</sub>
 
-<details>
-<summary><b>Languages, chains, infra and ML stack</b></summary>
+| Stack | |
+|---|---|
+| **Languages** | Go · Rust · Solidity · TypeScript · Java · Python · C++ |
+| **Blockchain** | Ethereum · EigenLayer · CosmWasm · Solana · Foundry |
+| **Backend** | Spring Boot · Kafka · PostgreSQL · MongoDB · Redis · Docker · Kubernetes · AWS |
+| **AI / ML systems** | vLLM · PyTorch · torch.distributed · DiLoCo · decentralized training |
 
-**Languages**
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
-**Blockchain & Web3**
-
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
-![EigenLayer](https://img.shields.io/badge/EigenLayer-1A0C6D?style=flat-square)
-![CosmWasm](https://img.shields.io/badge/CosmWasm-5064FB?style=flat-square&logo=cosmos&logoColor=white)
-![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
-![Foundry](https://img.shields.io/badge/Foundry-000000?style=flat-square&logo=ethereum&logoColor=white)
-
-**Backend & Infrastructure**
-
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-
-**AI / ML Systems**
-
-![vLLM](https://img.shields.io/badge/vLLM-30A14E?style=flat-square)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![torch.distributed](https://img.shields.io/badge/torch.distributed-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![DiLoCo](https://img.shields.io/badge/DiLoCo-5064FB?style=flat-square)
-![Decentralized Training](https://img.shields.io/badge/Decentralized%20Training-1A0C6D?style=flat-square)
-
-</details>
-
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <a name="competitive"></a>
 
@@ -587,7 +567,7 @@ Achieved **Codeforces Expert** during university (pre-2022, before AI coding ass
 
 </details>
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <a name="writing"></a>
 
@@ -602,7 +582,7 @@ Achieved **Codeforces Expert** during university (pre-2022, before AI coding ass
 
 [All writing →](https://prajj.com/articles/)
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <div align="center">
 
@@ -612,18 +592,26 @@ Achieved **Codeforces Expert** during university (pre-2022, before AI coding ass
 
 <div align="center">
 
-<img src="assets/retro/88x31/handcoded.svg" alt="Hand-coded in a text editor"> <img src="assets/retro/88x31/1024x768.svg" alt="Best viewed in any browser"> <img src="assets/retro/88x31/nocookies.svg" alt="No cookies, no trackers"> <a href="https://codeforces.com/profile/pjdurden"><img src="assets/retro/88x31/codeforces.svg" alt="Codeforces Expert"></a> <a href="https://wipezilla.in"><img src="assets/retro/88x31/kurux.svg" alt="KuruX Enterprises"></a> <a href="https://bizpedia.org"><img src="assets/retro/88x31/bizpedia.svg" alt="Bizpedia.org"></a>
+<sub>
+  Featured by <b>Y Combinator Startup School</b> (KuruX) &nbsp;·&nbsp;
+  Guest on The Irusha Podcast, <i>"Blockchain startup ecosystem in India"</i> (2022)
+</sub>
 
-<sub>Featured by **Y Combinator Startup School** (KuruX) &nbsp;·&nbsp; Guest on The Irusha Podcast, *"Blockchain startup ecosystem in India"* (2022)</sub>
+<sub>
+  <a href="https://codeforces.com/profile/pjdurden">Codeforces Expert</a> &nbsp;·&nbsp;
+  FIDE-registered, 1600+ &nbsp;·&nbsp;
+  <a href="https://wipezilla.in">KuruX Enterprises</a> &nbsp;·&nbsp;
+  <a href="https://bizpedia.org">Bizpedia</a>
+</sub>
 
 </div>
 
-<img src="assets/retro/rule.svg" width="100%" alt="">
+<img src="assets/swiss/rule.svg" width="100%" alt="">
 
 <div align="center">
 
 <sub><a href="mailto:prajjwalchittoriwork@gmail.com">prajjwalchittoriwork@gmail.com</a> &nbsp;·&nbsp; <a href="https://prajj.com/">prajj.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/prajjwal-chittori/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://www.instagram.com/prajjwalsinghchittori">Instagram</a> &nbsp;·&nbsp; <a href="https://www.youtube.com/@prajjwalsinghchittori">YouTube</a> &nbsp;·&nbsp; <a href="https://prajj.com/fintech/">Top 50 Fintech</a></sub>
 
-<sub>Hand-coded in a text editor. Best viewed in any browser.</sub>
+<sub>Hand-coded in a text editor. <a href="https://prajj.com/retro.html">The 1999 edition still exists.</a></sub>
 
 </div>
