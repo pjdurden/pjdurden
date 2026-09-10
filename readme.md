@@ -42,11 +42,12 @@
 
 **What's New**
 
+<sub>SEP 2026</sub> &nbsp; A metadata-shard write-lock stall uncapped in [Mooncake #3593](https://github.com/kvcache-ai/Mooncake/pull/3593)
+
 <sub>SEP 2026</sub> &nbsp; An autoscaler starvation fix merged in [Ray #65299](https://github.com/ray-project/ray/pull/65299)
 
 <sub>SEP 2026</sub> &nbsp; A batched-inference mask bug swept out of eight models in [candle #3879](https://github.com/huggingface/candle/pull/3879)
 
-<sub>AUG 2026</sub> &nbsp; An RDMA endpoint-rebuild storm stopped in [Mooncake #3387](https://github.com/kvcache-ai/Mooncake/pull/3387)
 
 <sub>PREPRINT</sub> &nbsp; [Cache-aware request planning for black-box LLM APIs](https://doi.org/10.5281/zenodo.21386594)
 
@@ -187,12 +188,12 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 <a name="opensource"></a>
 
-## Open Source &nbsp;<sub>25 merged · 17 projects</sub>
+## Open Source &nbsp;<sub>26 merged · 17 projects</sub>
 
 | # | Project | Merged | # | Project | Merged |
 |---|---|---|---|---|---|
 | 1 | [vLLM](https://github.com/vllm-project/vllm) | 1 | 5 | [Ray](https://github.com/ray-project/ray) | 1 |
-| 2 | [Mooncake](https://github.com/kvcache-ai/Mooncake) | 3 | 6 | [Optimism](https://github.com/ethereum-optimism/optimism) | 1 |
+| 2 | [Mooncake](https://github.com/kvcache-ai/Mooncake) | 4 | 6 | [Optimism](https://github.com/ethereum-optimism/optimism) | 1 |
 | 3 | [candle](https://github.com/huggingface/candle) | 2 | 7 | [revm](https://github.com/bluealloy/revm) | 1 |
 | 4 | [SGLang](https://github.com/sgl-project/sglang) | 1 | 8 | [Meilisearch](https://github.com/meilisearch/meilisearch) | 1 |
 
@@ -240,7 +241,7 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 <td align="center" width="25%">
 <a href="https://github.com/kvcache-ai/Mooncake"><img src="https://github.com/kvcache-ai.png?size=96" width="44" height="44" alt="Mooncake"><br><b>Mooncake</b></a><br>
 <img src="https://img.shields.io/github/stars/kvcache-ai/Mooncake?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
-<sub>3 merged</sub>
+<sub>4 merged</sub>
 </td>
 </tr>
 <tr>
