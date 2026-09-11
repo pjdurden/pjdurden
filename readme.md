@@ -34,6 +34,7 @@
 | YouTube | 7,860 subscribers |
 | LinkedIn | 5,000+ followers |
 | GitHub | [followers, live](https://github.com/pjdurden) |
+| **Package downloads** | [![downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpjdurden%2Fpjdurden%2Fmain%2Fpackages.json&query=%24.total&style=flat-square&label=downloads&labelColor=44403c&color=16a34a)](#packages) **npm + PyPI** |
 | **Total views** | **20,000,000+** |
 
 <sub>One format, run with relentless consistency.</sub>
@@ -189,7 +190,9 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 
 <a name="packages"></a>
 
-## Packages &nbsp;<sub>5 published · npm + PyPI</sub>
+## Packages &nbsp;<sub>5 published</sub>
+
+[![total downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpjdurden%2Fpjdurden%2Fmain%2Fpackages.json&query=%24.total&style=flat-square&label=downloads&labelColor=44403c&color=16a34a&label=total%20downloads)](https://prajj.com/#oss) across npm and PyPI, refreshed daily.
 
 Small, single-purpose tools for people building coding agents. Each one ships the same
 API twice, JavaScript and Python, from a single repo.

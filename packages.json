@@ -1,0 +1,28 @@
+{
+  "updated": "2026-09-11T20:22:11.133Z",
+  "total": 3878,
+  "npm": 1916,
+  "pypi": 1962,
+  "packages": {
+    "cmd-risk": {
+      "npm": 605,
+      "pypi": null
+    },
+    "cassette-fn": {
+      "npm": 466,
+      "pypi": 801
+    },
+    "apply-edit-block": {
+      "npm": 299,
+      "pypi": 399
+    },
+    "ctx-compact": {
+      "npm": 290,
+      "pypi": 394
+    },
+    "prompt-cache-fit": {
+      "npm": 256,
+      "pypi": 368
+    }
+  }
+}
