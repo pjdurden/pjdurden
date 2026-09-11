@@ -33,7 +33,6 @@
 | Instagram | 22,000+ followers |
 | YouTube | 7,860 subscribers |
 | LinkedIn | 5,000+ followers |
-| GitHub | [followers, live](https://github.com/pjdurden) |
 | **Package downloads** | [![downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpjdurden%2Fpjdurden%2Fmain%2Fpackages.json&query=%24.total&style=flat-square&label=downloads&labelColor=44403c&color=16a34a)](#packages) **npm + PyPI** |
 | **Total views** | **20,000,000+** |
 
