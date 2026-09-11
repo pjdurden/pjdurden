@@ -12,6 +12,7 @@
   <a href="#experience">Experience</a> &nbsp;·&nbsp;
   <a href="#research">Research</a> &nbsp;·&nbsp;
   <a href="#opensource">Open Source</a> &nbsp;·&nbsp;
+  <a href="#packages">Packages</a> &nbsp;·&nbsp;
   <a href="#companies">Companies</a> &nbsp;·&nbsp;
   <a href="#creator">Creator</a> &nbsp;·&nbsp;
   <a href="#projects">Projects</a> &nbsp;·&nbsp;
@@ -183,6 +184,26 @@ Joined as an intern during the final years of my degree at Delhi College of Engi
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20574905.svg)](https://doi.org/10.5281/zenodo.20574905) · [pjdurden/churn](https://github.com/pjdurden/churn)
 
 </details>
+
+<img src="assets/swiss/rule.svg" width="100%" alt="">
+
+<a name="packages"></a>
+
+## Packages &nbsp;<sub>5 published · npm + PyPI</sub>
+
+Small, single-purpose tools for people building coding agents. Each one ships the same
+API twice, JavaScript and Python, from a single repo.
+
+| Package | npm | PyPI | Source |
+|---|---|---|---|
+| **cmd-risk**<br><sub>Advisory risk classifier for shell commands</sub> | [![npm](https://img.shields.io/npm/dt/cmd-risk?style=flat-square&label=npm&labelColor=44403c&color=cb3837&cacheSeconds=3600)](https://www.npmjs.com/package/cmd-risk) | [![PyPI](https://img.shields.io/pepy/dt/cmd-risk?style=flat-square&label=PyPI&labelColor=44403c&color=3775a9&cacheSeconds=3600)](https://pypi.org/project/cmd-risk/) | [repo](https://github.com/pjdurden/cmd-risk) |
+| **cassette-fn**<br><sub>Record and replay LLM tool calls</sub> | [![npm](https://img.shields.io/npm/dt/cassette-fn?style=flat-square&label=npm&labelColor=44403c&color=cb3837&cacheSeconds=3600)](https://www.npmjs.com/package/cassette-fn) | [![PyPI](https://img.shields.io/pepy/dt/cassette-fn?style=flat-square&label=PyPI&labelColor=44403c&color=3775a9&cacheSeconds=3600)](https://pypi.org/project/cassette-fn/) | [repo](https://github.com/pjdurden/cassette-fn) |
+| **apply-edit-block**<br><sub>Apply search/replace edit blocks to files</sub> | [![npm](https://img.shields.io/npm/dt/apply-edit-block?style=flat-square&label=npm&labelColor=44403c&color=cb3837&cacheSeconds=3600)](https://www.npmjs.com/package/apply-edit-block) | [![PyPI](https://img.shields.io/pepy/dt/apply-edit-block?style=flat-square&label=PyPI&labelColor=44403c&color=3775a9&cacheSeconds=3600)](https://pypi.org/project/apply-edit-block/) | [repo](https://github.com/pjdurden/apply-edit-block) |
+| **ctx-compact**<br><sub>Compact an agent context window</sub> | [![npm](https://img.shields.io/npm/dt/ctx-compact?style=flat-square&label=npm&labelColor=44403c&color=cb3837&cacheSeconds=3600)](https://www.npmjs.com/package/ctx-compact) | [![PyPI](https://img.shields.io/pepy/dt/ctx-compact?style=flat-square&label=PyPI&labelColor=44403c&color=3775a9&cacheSeconds=3600)](https://pypi.org/project/ctx-compact/) | [repo](https://github.com/pjdurden/ctx-compact) |
+| **prompt-cache-fit**<br><sub>Shape prompts to fit a provider prefix cache</sub> | [![npm](https://img.shields.io/npm/dt/prompt-cache-fit?style=flat-square&label=npm&labelColor=44403c&color=cb3837&cacheSeconds=3600)](https://www.npmjs.com/package/prompt-cache-fit) | [![PyPI](https://img.shields.io/pepy/dt/prompt-cache-fit?style=flat-square&label=PyPI&labelColor=44403c&color=3775a9&cacheSeconds=3600)](https://pypi.org/project/prompt-cache-fit/) | [repo](https://github.com/pjdurden/prompt-cache-fit) |
+
+*Download counts are live badges, not numbers I typed in. Totals across both registries
+are on [prajj.com](https://prajj.com/#oss).*
 
 <img src="assets/swiss/rule.svg" width="100%" alt="">
 
