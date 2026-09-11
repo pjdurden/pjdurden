@@ -42,7 +42,10 @@ for (const p of PKGS) {
   const s = await get(`https://img.shields.io/pepy/dt/${p}.json`);
   const pypi = s ? asInt(s.value) : null;
   if (npm === null) hardFail = true;           // npm is the floor; PyPI may legitimately be absent
-  out.packages[p] = { npm, pypi };
+  // 0 rather than null when a registry has not published data yet: the cell renders a
+  // real number that self-corrects, instead of a badge that errors. npm staying null is
+  // the hard-fail signal above, so only pypi is floored here.
+  out.packages[p] = { npm, pypi: pypi === null ? 0 : pypi };
   out.npm += npm || 0;
   out.pypi += pypi || 0;
 }
@@ -58,18 +61,3 @@ if (existsSync("packages.json")) {
 }
 writeFileSync("packages.json", JSON.stringify(out, null, 2) + "\n");
 console.log(`total=${out.total} npm=${out.npm} pypi=${out.pypi}`);
-
-// cmd-risk was published after the others, so PyPI had no download data for it and its
-// README cell was parked on a version badge to avoid rendering "not found". Swap it to
-// the downloads badge automatically the first run where a real number exists, so the
-// table goes back to being consistent without anyone remembering to do it.
-const readme = "readme.md";
-if (out.packages["cmd-risk"]?.pypi != null && existsSync(readme)) {
-  const md = readFileSync(readme, "utf8");
-  const versionBadge = "https://img.shields.io/pypi/v/cmd-risk?style=flat-square&label=PyPI";
-  const downloadsBadge = "https://img.shields.io/pepy/dt/cmd-risk?style=flat-square&label=PyPI";
-  if (md.includes(versionBadge)) {
-    writeFileSync(readme, md.replace(versionBadge, downloadsBadge));
-    console.log("cmd-risk PyPI badge: version -> downloads (stats have landed)");
-  }
-}

@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-11T20:47:20.361Z",
+  "updated": "2026-09-11T21:02:32.042Z",
   "total": 3878,
   "npm": 1916,
   "pypi": 1962,
   "packages": {
     "cmd-risk": {
       "npm": 605,
-      "pypi": null
+      "pypi": 0
     },
     "cassette-fn": {
       "npm": 466,
