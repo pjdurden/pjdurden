@@ -26,11 +26,13 @@ jobs:
       - run: node scripts/package-downloads.mjs
       - name: commit if changed
         run: |
-          if git diff --quiet -- packages.json; then
+          # readme.md is included because the script may swap cmd-risk's PyPI cell
+          # from the version badge to the downloads badge once stats exist.
+          if git diff --quiet -- packages.json readme.md; then
             echo "no change"; exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add packages.json
+          git add packages.json readme.md
           git commit -m "chore: refresh package download totals"
           git push

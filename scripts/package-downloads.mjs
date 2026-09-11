@@ -58,3 +58,18 @@ if (existsSync("packages.json")) {
 }
 writeFileSync("packages.json", JSON.stringify(out, null, 2) + "\n");
 console.log(`total=${out.total} npm=${out.npm} pypi=${out.pypi}`);
+
+// cmd-risk was published after the others, so PyPI had no download data for it and its
+// README cell was parked on a version badge to avoid rendering "not found". Swap it to
+// the downloads badge automatically the first run where a real number exists, so the
+// table goes back to being consistent without anyone remembering to do it.
+const readme = "readme.md";
+if (out.packages["cmd-risk"]?.pypi != null && existsSync(readme)) {
+  const md = readFileSync(readme, "utf8");
+  const versionBadge = "https://img.shields.io/pypi/v/cmd-risk?style=flat-square&label=PyPI";
+  const downloadsBadge = "https://img.shields.io/pepy/dt/cmd-risk?style=flat-square&label=PyPI";
+  if (md.includes(versionBadge)) {
+    writeFileSync(readme, md.replace(versionBadge, downloadsBadge));
+    console.log("cmd-risk PyPI badge: version -> downloads (stats have landed)");
+  }
+}
