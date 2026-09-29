@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-28T13:59:08.151Z",
-  "total": 9134,
+  "updated": "2026-09-29T12:56:18.307Z",
+  "total": 9139,
   "npm": 3872,
-  "pypi": 5262,
+  "pypi": 5267,
   "packages": {
     "cmd-risk": {
       "npm": 647,
-      "pypi": 458
+      "pypi": 461
     },
     "cassette-fn": {
       "npm": 503,
-      "pypi": 959
+      "pypi": 961
     },
     "apply-edit-block": {
       "npm": 333,
