@@ -43,11 +43,11 @@
 
 **What's New**
 
-<sub>SEP 2026</sub> &nbsp; A metadata-shard write-lock stall uncapped in [Mooncake #3593](https://github.com/kvcache-ai/Mooncake/pull/3593)
+<sub>SEP 2026</sub> &nbsp; A Ray Data autoscaler that never scaled up, fixed in [Ray #65446](https://github.com/ray-project/ray/pull/65446)
 
-<sub>SEP 2026</sub> &nbsp; An autoscaler starvation fix merged in [Ray #65299](https://github.com/ray-project/ray/pull/65299)
+<sub>SEP 2026</sub> &nbsp; An over-reported prefix-cache match clamped in [Mooncake #4164](https://github.com/kvcache-ai/Mooncake/pull/4164)
 
-<sub>SEP 2026</sub> &nbsp; A batched-inference mask bug swept out of eight models in [candle #3879](https://github.com/huggingface/candle/pull/3879)
+<sub>SEP 2026</sub> &nbsp; An ingress header-spoofing hole closed in [Restate #4896](https://github.com/restatedev/restate/pull/4896)
 
 
 <sub>PREPRINT</sub> &nbsp; [Cache-aware request planning for black-box LLM APIs](https://doi.org/10.5281/zenodo.21386594)
@@ -211,12 +211,12 @@ are on [prajj.com](https://prajj.com/#oss).*
 
 <a name="opensource"></a>
 
-## Open Source &nbsp;<sub>26 merged · 17 projects</sub>
+## Open Source &nbsp;<sub>29 merged · 18 projects</sub>
 
 | # | Project | Merged | # | Project | Merged |
 |---|---|---|---|---|---|
-| 1 | [vLLM](https://github.com/vllm-project/vllm) | 1 | 5 | [Ray](https://github.com/ray-project/ray) | 1 |
-| 2 | [Mooncake](https://github.com/kvcache-ai/Mooncake) | 4 | 6 | [Optimism](https://github.com/ethereum-optimism/optimism) | 1 |
+| 1 | [vLLM](https://github.com/vllm-project/vllm) | 1 | 5 | [Ray](https://github.com/ray-project/ray) | 2 |
+| 2 | [Mooncake](https://github.com/kvcache-ai/Mooncake) | 5 | 6 | [Optimism](https://github.com/ethereum-optimism/optimism) | 1 |
 | 3 | [candle](https://github.com/huggingface/candle) | 2 | 7 | [revm](https://github.com/bluealloy/revm) | 1 |
 | 4 | [SGLang](https://github.com/sgl-project/sglang) | 1 | 8 | [Meilisearch](https://github.com/meilisearch/meilisearch) | 1 |
 
@@ -264,7 +264,7 @@ are on [prajj.com](https://prajj.com/#oss).*
 <td align="center" width="25%">
 <a href="https://github.com/kvcache-ai/Mooncake"><img src="https://github.com/kvcache-ai.png?size=96" width="44" height="44" alt="Mooncake"><br><b>Mooncake</b></a><br>
 <img src="https://img.shields.io/github/stars/kvcache-ai/Mooncake?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
-<sub>4 merged</sub>
+<sub>5 merged</sub>
 </td>
 </tr>
 <tr>
@@ -315,9 +315,13 @@ are on [prajj.com](https://prajj.com/#oss).*
 <td align="center" width="25%">
 <a href="https://github.com/ray-project/ray"><img src="https://github.com/ray-project.png?size=96" width="44" height="44" alt="Ray"><br><b>Ray</b></a><br>
 <img src="https://img.shields.io/github/stars/ray-project/ray?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
+<sub>2 merged</sub>
+</td>
+<td align="center" width="25%">
+<a href="https://github.com/restatedev/restate"><img src="https://github.com/restatedev.png?size=96" width="44" height="44" alt="Restate"><br><b>Restate</b></a><br>
+<img src="https://img.shields.io/github/stars/restatedev/restate?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
-<td align="center" width="25%"></td>
 <td align="center" width="25%"></td>
 <td align="center" width="25%"></td>
 </tr>
@@ -375,7 +379,7 @@ The **OP Stack** monorepo powering Ethereum L2s (Base, OP Mainnet) - fixed an `o
 <details>
 <summary><b>Mooncake</b> &nbsp;<code>kvcache-ai/Mooncake</code></summary>
 
-The **KV-cache store & transfer engine** behind Kimi, used as a disaggregated KV backend by vLLM and SGLang - `mooncake_master` bound its RPC and HTTP servers to the numeric wildcard `0.0.0.0`, which the acceptors resolved through `getaddrinfo()`, so environments that answer `EAI_NONAME` for numeric literals killed startup with *bad address: 0.0.0.0*; fixed by pinning the dependency to a revision that parses numeric IP literals directly ([#2919](https://github.com/kvcache-ai/Mooncake/pull/2919)), and fixed an SSD-offload duplicate-key storm under concurrency: when two offload flows shared a KV prefix block, the bucket backend's intentional single-writer-per-key `OBJECT_ALREADY_EXISTS` rejection was treated as fatal by `FileStorage::OffloadObjects`, aborting the whole offload and leaving the decode node with `INVALID_KEY` floods; made duplicate-key rejection a recoverable per-bucket condition ([#2967](https://github.com/kvcache-ai/Mooncake/pull/2967)). The third fix stopped an RDMA endpoint rebuild storm: when a QP reported an `mlx5` local completion fault the slice was handed to the other bonded RNIC, which had no endpoint for that peer NIC and so ran a full handshake with fresh QP numbers, then handed it straight back when the fault recurred - two RNICs ping-ponging the same slices at worker-loop speed, with neither brake applying, since the local-failure branch deliberately never marked the rail failed and the context-health counter is cleared by any concurrent healthy completion; the failing local-to-peer rail is now charged an error in the existing rail monitor, so the threshold the remote-failure path already uses pauses that path after five faults and auto-recovers it ([#3387](https://github.com/kvcache-ai/Mooncake/pull/3387)).
+The **KV-cache store & transfer engine** behind Kimi, used as a disaggregated KV backend by vLLM and SGLang - `mooncake_master` bound its RPC and HTTP servers to the numeric wildcard `0.0.0.0`, which the acceptors resolved through `getaddrinfo()`, so environments that answer `EAI_NONAME` for numeric literals killed startup with *bad address: 0.0.0.0*; fixed by pinning the dependency to a revision that parses numeric IP literals directly ([#2919](https://github.com/kvcache-ai/Mooncake/pull/2919)), and fixed an SSD-offload duplicate-key storm under concurrency: when two offload flows shared a KV prefix block, the bucket backend's intentional single-writer-per-key `OBJECT_ALREADY_EXISTS` rejection was treated as fatal by `FileStorage::OffloadObjects`, aborting the whole offload and leaving the decode node with `INVALID_KEY` floods; made duplicate-key rejection a recoverable per-bucket condition ([#2967](https://github.com/kvcache-ai/Mooncake/pull/2967)). The third fix stopped an RDMA endpoint rebuild storm: when a QP reported an `mlx5` local completion fault the slice was handed to the other bonded RNIC, which had no endpoint for that peer NIC and so ran a full handshake with fresh QP numbers, then handed it straight back when the fault recurred - two RNICs ping-ponging the same slices at worker-loop speed, with neither brake applying, since the local-failure branch deliberately never marked the rail failed and the context-health counter is cleared by any concurrent healthy completion; the failing local-to-peer rail is now charged an error in the existing rail monitor, so the threshold the remote-failure path already uses pauses that path after five faults and auto-recovers it ([#3387](https://github.com/kvcache-ai/Mooncake/pull/3387)). The fourth stopped a metadata stall: `ClearStaleHandles` walked an entire shard while holding its write lock, and a mass client expiry marks handles stale table-wide, so the sweep blocked every RPC on the shard until it moved on; it now picks matching keys under the read lock and cleans only those in bounded write-lock batches, so the exclusive hold is capped by batch size instead of shard size ([#3593](https://github.com/kvcache-ai/Mooncake/pull/3593)). The fifth fixed an over-reported prefix match in the conductor: `PrefixCacheTable::Query` turned matched blocks into tokens as if every block were full, but the SGLang hash chain deliberately ends in a partial block, so a 40-token prompt with `block_size = 16` came back as a 48-token match, past the end of the prompt; a router trusting that length skipped recomputing KV slots written by a different request, which surfaced as off-topic generation. The match is now clamped to the queried token count, leaving the vLLM full-block chain bit-for-bit unchanged ([#4164](https://github.com/kvcache-ai/Mooncake/pull/4164)).
 
 </details>
 
@@ -438,7 +442,14 @@ The Rust **JSON-Schema to regex core** behind Outlines' structured generation - 
 <details>
 <summary><b>Ray</b> &nbsp;<code>ray-project/ray</code></summary>
 
-The **distributed compute framework** underneath much of the ML training and serving stack - Autoscaler v2 silently lost launch errors whenever a single launch request spanned more than one node type. The reconciler keyed its error lookup on the launch `request_id` alone, but one request carries a whole shape, and both the node-provider and KubeRay paths fan that shape out into one `LaunchNodeError` per node type sharing that id; the sibling errors overwrote each other in the dict and only the last survived, so every other node type never reached `ALLOCATION_FAILED`. Those instances sat in `REQUESTED` until the request timeout fired, holding `max_concurrent_launches` capacity and staying eligible for allocation in later reconcile passes, which let a stale instance claim a Pod launched for a different request. Fixed by keying on the pair that actually identifies a launch error, `(request_id, node_type)` ([#65299](https://github.com/ray-project/ray/pull/65299)).
+The **distributed compute framework** underneath much of the ML training and serving stack - Autoscaler v2 silently lost launch errors whenever a single launch request spanned more than one node type. The reconciler keyed its error lookup on the launch `request_id` alone, but one request carries a whole shape, and both the node-provider and KubeRay paths fan that shape out into one `LaunchNodeError` per node type sharing that id; the sibling errors overwrote each other in the dict and only the last survived, so every other node type never reached `ALLOCATION_FAILED`. Those instances sat in `REQUESTED` until the request timeout fired, holding `max_concurrent_launches` capacity and staying eligible for allocation in later reconcile passes, which let a stale instance claim a Pod launched for a different request. Fixed by keying on the pair that actually identifies a launch error, `(request_id, node_type)` ([#65299](https://github.com/ray-project/ray/pull/65299)). The second fixed a scale-up that never happened: Ray Data's autoscaler copies each live node's resources into the bundles it requests, and it rounded memory to the *nearest* 0.1 GiB, so a node reporting 14.87 GiB became a 14.9 GiB bundle, larger than the node it was copied from. No node of that type could fit it, the autoscaler treated the demand as infeasible, and the cluster never grew; memory now floors to a 1 GiB bucket, making bundle <= node an invariant while still grouping same-type nodes whose reported memory jitters ([#65446](https://github.com/ray-project/ray/pull/65446)).
+
+</details>
+
+<details>
+<summary><b>Restate</b> &nbsp;<code>restatedev/restate</code></summary>
+
+The **durable-execution engine** for resilient services and agents - the HTTP ingress forwarded every incoming header to the service, including caller-supplied `x-restate-*` headers, a namespace reserved for metadata the ingress sets itself (such as `x-restate-ingress-path`), so any caller could inject or override it. The ingress now drops incoming `x-restate-*` headers before forwarding, with a regression test that sends spoofed ones and asserts they never reach the service ([#4896](https://github.com/restatedev/restate/pull/4896)).
 
 </details>
 
