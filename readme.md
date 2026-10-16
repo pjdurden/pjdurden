@@ -43,11 +43,11 @@
 
 **What's New**
 
+<sub>OCT 2026</sub> &nbsp; A vLLM worker crash on async-lookup timeout fixed in [LMCache #3766](https://github.com/LMCache/LMCache/pull/3766)
+
 <sub>SEP 2026</sub> &nbsp; A Ray Data autoscaler that never scaled up, fixed in [Ray #65446](https://github.com/ray-project/ray/pull/65446)
 
 <sub>SEP 2026</sub> &nbsp; An over-reported prefix-cache match clamped in [Mooncake #4164](https://github.com/kvcache-ai/Mooncake/pull/4164)
-
-<sub>SEP 2026</sub> &nbsp; An ingress header-spoofing hole closed in [Restate #4896](https://github.com/restatedev/restate/pull/4896)
 
 
 <sub>PREPRINT</sub> &nbsp; [Cache-aware request planning for black-box LLM APIs](https://doi.org/10.5281/zenodo.21386594)
@@ -211,7 +211,7 @@ are on [prajj.com](https://prajj.com/#oss).*
 
 <a name="opensource"></a>
 
-## Open Source &nbsp;<sub>29 merged · 18 projects</sub>
+## Open Source &nbsp;<sub>30 merged · 19 projects</sub>
 
 | # | Project | Merged | # | Project | Merged |
 |---|---|---|---|---|---|
@@ -322,7 +322,11 @@ are on [prajj.com](https://prajj.com/#oss).*
 <img src="https://img.shields.io/github/stars/restatedev/restate?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
-<td align="center" width="25%"></td>
+<td align="center" width="25%">
+<a href="https://github.com/LMCache/LMCache"><img src="https://github.com/LMCache.png?size=96" width="44" height="44" alt="LMCache"><br><b>LMCache</b></a><br>
+<img src="https://img.shields.io/github/stars/LMCache/LMCache?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
+<sub>1 merged</sub>
+</td>
 <td align="center" width="25%"></td>
 </tr>
 </table>
@@ -450,6 +454,13 @@ The **distributed compute framework** underneath much of the ML training and ser
 <summary><b>Restate</b> &nbsp;<code>restatedev/restate</code></summary>
 
 The **durable-execution engine** for resilient services and agents - the HTTP ingress forwarded every incoming header to the service, including caller-supplied `x-restate-*` headers, a namespace reserved for metadata the ingress sets itself (such as `x-restate-ingress-path`), so any caller could inject or override it. The ingress now drops incoming `x-restate-*` headers before forwarding, with a regression test that sends spoofed ones and asserts they never reach the service ([#4896](https://github.com/restatedev/restate/pull/4896)).
+
+</details>
+
+<details>
+<summary><b>LMCache</b> &nbsp;<code>LMCache/LMCache</code></summary>
+
+The **KV-cache layer** that plugs into vLLM to store and reuse prefix caches across requests and nodes - when an async lookup timed out, `lookup_cache()` returned a miss and dropped the request's `first_lookup_time` entry but left its status pending, so when vLLM asked again for the same id (which it does with nixl + async loading) the pending branch indexed the deleted entry and the `KeyError` took the vLLM worker down. A missing entry is now treated like an expired one, so the request reports a cache miss and vLLM recomputes instead of crashing, with a regression test that drives the timeout then re-query sequence through the public interface ([#3766](https://github.com/LMCache/LMCache/pull/3766)).
 
 </details>
 
