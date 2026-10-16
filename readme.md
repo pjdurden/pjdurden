@@ -118,9 +118,7 @@ People building inference engines, payment rails, and anything with a hard corre
 Building ether.fi Cash, a non-custodial Visa crypto card on liquid-restaking infrastructure where users spend ETH/USDC while their assets continue earning restaking yield.
 
 - Own real-time settlement bridging Visa rails and on-chain vaults (authorization, capture, reconciliation).
-- Built the Borrow Mode backend - USDC borrowing against eETH collateral via lending-pool integration.
-- Designed an event-driven cashback pipeline (wETH rewards) on Kafka.
-- Hardened KYC/AML and risk monitoring with chain-analytics providers; extended multi-chain support across Ethereum L1 and L2s.
+- Handling daily Operations regarding Card processing , Acceptance and Risk.
 
 `$ Go · Solidity · Ethereum · EigenLayer · Kafka · PostgreSQL · Redis`
 
