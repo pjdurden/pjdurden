@@ -1,28 +1,28 @@
 {
-  "updated": "2026-10-19T13:21:02.561Z",
-  "total": 10930,
+  "updated": "2026-10-20T11:41:04.331Z",
+  "total": 11064,
   "npm": 4076,
-  "pypi": 6854,
+  "pypi": 6988,
   "packages": {
     "cmd-risk": {
       "npm": 665,
-      "pypi": 585
+      "pypi": 589
     },
     "cassette-fn": {
       "npm": 529,
-      "pypi": 1100
+      "pypi": 1200
     },
     "apply-edit-block": {
       "npm": 347,
-      "pypi": 614
+      "pypi": 622
     },
     "ctx-compact": {
       "npm": 328,
-      "pypi": 603
+      "pypi": 610
     },
     "prompt-cache-fit": {
       "npm": 327,
-      "pypi": 528
+      "pypi": 543
     },
     "jevkit": {
       "npm": 1880,
