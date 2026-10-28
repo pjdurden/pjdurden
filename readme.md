@@ -43,11 +43,11 @@
 
 **What's New**
 
-<sub>OCT 2026</sub> &nbsp; A vLLM worker crash on async-lookup timeout fixed in [LMCache #3766](https://github.com/LMCache/LMCache/pull/3766)
+<sub>OCT 2026</sub> &nbsp; Unaligned HCCS device memory rejected at registration in [Mooncake #4903](https://github.com/kvcache-ai/Mooncake/pull/4903)
 
-<sub>SEP 2026</sub> &nbsp; A Ray Data autoscaler that never scaled up, fixed in [Ray #65446](https://github.com/ray-project/ray/pull/65446)
+<sub>OCT 2026</sub> &nbsp; Compaction after a metadata-only column add covered in [Lance #8479](https://github.com/lance-format/lance/pull/8479)
 
-<sub>SEP 2026</sub> &nbsp; An over-reported prefix-cache match clamped in [Mooncake #4164](https://github.com/kvcache-ai/Mooncake/pull/4164)
+<sub>OCT 2026</sub> &nbsp; A null-client crash in batch transfer metrics fixed in [Mooncake #4633](https://github.com/kvcache-ai/Mooncake/pull/4633)
 
 
 <sub>PREPRINT</sub> &nbsp; [Cache-aware request planning for black-box LLM APIs](https://doi.org/10.5281/zenodo.21386594)
@@ -209,12 +209,12 @@ are on [prajj.com](https://prajj.com/#oss).*
 
 <a name="opensource"></a>
 
-## Open Source &nbsp;<sub>30 merged · 19 projects</sub>
+## Open Source &nbsp;<sub>33 merged · 20 projects</sub>
 
 | # | Project | Merged | # | Project | Merged |
 |---|---|---|---|---|---|
 | 1 | [vLLM](https://github.com/vllm-project/vllm) | 1 | 5 | [Ray](https://github.com/ray-project/ray) | 2 |
-| 2 | [Mooncake](https://github.com/kvcache-ai/Mooncake) | 5 | 6 | [Optimism](https://github.com/ethereum-optimism/optimism) | 1 |
+| 2 | [Mooncake](https://github.com/kvcache-ai/Mooncake) | 7 | 6 | [Optimism](https://github.com/ethereum-optimism/optimism) | 1 |
 | 3 | [candle](https://github.com/huggingface/candle) | 2 | 7 | [revm](https://github.com/bluealloy/revm) | 1 |
 | 4 | [SGLang](https://github.com/sgl-project/sglang) | 1 | 8 | [Meilisearch](https://github.com/meilisearch/meilisearch) | 1 |
 
@@ -262,7 +262,7 @@ are on [prajj.com](https://prajj.com/#oss).*
 <td align="center" width="25%">
 <a href="https://github.com/kvcache-ai/Mooncake"><img src="https://github.com/kvcache-ai.png?size=96" width="44" height="44" alt="Mooncake"><br><b>Mooncake</b></a><br>
 <img src="https://img.shields.io/github/stars/kvcache-ai/Mooncake?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
-<sub>5 merged</sub>
+<sub>7 merged</sub>
 </td>
 </tr>
 <tr>
@@ -325,7 +325,11 @@ are on [prajj.com](https://prajj.com/#oss).*
 <img src="https://img.shields.io/github/stars/LMCache/LMCache?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
-<td align="center" width="25%"></td>
+<td align="center" width="25%">
+<a href="https://github.com/lance-format/lance"><img src="https://github.com/lance-format.png?size=96" width="44" height="44" alt="Lance"><br><b>Lance</b></a><br>
+<img src="https://img.shields.io/github/stars/lance-format/lance?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
+<sub>1 merged</sub>
+</td>
 </tr>
 </table>
 
@@ -381,7 +385,7 @@ The **OP Stack** monorepo powering Ethereum L2s (Base, OP Mainnet) - fixed an `o
 <details>
 <summary><b>Mooncake</b> &nbsp;<code>kvcache-ai/Mooncake</code></summary>
 
-The **KV-cache store & transfer engine** behind Kimi, used as a disaggregated KV backend by vLLM and SGLang - `mooncake_master` bound its RPC and HTTP servers to the numeric wildcard `0.0.0.0`, which the acceptors resolved through `getaddrinfo()`, so environments that answer `EAI_NONAME` for numeric literals killed startup with *bad address: 0.0.0.0*; fixed by pinning the dependency to a revision that parses numeric IP literals directly ([#2919](https://github.com/kvcache-ai/Mooncake/pull/2919)), and fixed an SSD-offload duplicate-key storm under concurrency: when two offload flows shared a KV prefix block, the bucket backend's intentional single-writer-per-key `OBJECT_ALREADY_EXISTS` rejection was treated as fatal by `FileStorage::OffloadObjects`, aborting the whole offload and leaving the decode node with `INVALID_KEY` floods; made duplicate-key rejection a recoverable per-bucket condition ([#2967](https://github.com/kvcache-ai/Mooncake/pull/2967)). The third fix stopped an RDMA endpoint rebuild storm: when a QP reported an `mlx5` local completion fault the slice was handed to the other bonded RNIC, which had no endpoint for that peer NIC and so ran a full handshake with fresh QP numbers, then handed it straight back when the fault recurred - two RNICs ping-ponging the same slices at worker-loop speed, with neither brake applying, since the local-failure branch deliberately never marked the rail failed and the context-health counter is cleared by any concurrent healthy completion; the failing local-to-peer rail is now charged an error in the existing rail monitor, so the threshold the remote-failure path already uses pauses that path after five faults and auto-recovers it ([#3387](https://github.com/kvcache-ai/Mooncake/pull/3387)). The fourth stopped a metadata stall: `ClearStaleHandles` walked an entire shard while holding its write lock, and a mass client expiry marks handles stale table-wide, so the sweep blocked every RPC on the shard until it moved on; it now picks matching keys under the read lock and cleans only those in bounded write-lock batches, so the exclusive hold is capped by batch size instead of shard size ([#3593](https://github.com/kvcache-ai/Mooncake/pull/3593)). The fifth fixed an over-reported prefix match in the conductor: `PrefixCacheTable::Query` turned matched blocks into tokens as if every block were full, but the SGLang hash chain deliberately ends in a partial block, so a 40-token prompt with `block_size = 16` came back as a 48-token match, past the end of the prompt; a router trusting that length skipped recomputing KV slots written by a different request, which surfaced as off-topic generation. The match is now clamped to the queried token count, leaving the vLLM full-block chain bit-for-bit unchanged ([#4164](https://github.com/kvcache-ai/Mooncake/pull/4164)).
+The **KV-cache store & transfer engine** behind Kimi, used as a disaggregated KV backend by vLLM and SGLang - `mooncake_master` bound its RPC and HTTP servers to the numeric wildcard `0.0.0.0`, which the acceptors resolved through `getaddrinfo()`, so environments that answer `EAI_NONAME` for numeric literals killed startup with *bad address: 0.0.0.0*; fixed by pinning the dependency to a revision that parses numeric IP literals directly ([#2919](https://github.com/kvcache-ai/Mooncake/pull/2919)), and fixed an SSD-offload duplicate-key storm under concurrency: when two offload flows shared a KV prefix block, the bucket backend's intentional single-writer-per-key `OBJECT_ALREADY_EXISTS` rejection was treated as fatal by `FileStorage::OffloadObjects`, aborting the whole offload and leaving the decode node with `INVALID_KEY` floods; made duplicate-key rejection a recoverable per-bucket condition ([#2967](https://github.com/kvcache-ai/Mooncake/pull/2967)). The third fix stopped an RDMA endpoint rebuild storm: when a QP reported an `mlx5` local completion fault the slice was handed to the other bonded RNIC, which had no endpoint for that peer NIC and so ran a full handshake with fresh QP numbers, then handed it straight back when the fault recurred - two RNICs ping-ponging the same slices at worker-loop speed, with neither brake applying, since the local-failure branch deliberately never marked the rail failed and the context-health counter is cleared by any concurrent healthy completion; the failing local-to-peer rail is now charged an error in the existing rail monitor, so the threshold the remote-failure path already uses pauses that path after five faults and auto-recovers it ([#3387](https://github.com/kvcache-ai/Mooncake/pull/3387)). The fourth stopped a metadata stall: `ClearStaleHandles` walked an entire shard while holding its write lock, and a mass client expiry marks handles stale table-wide, so the sweep blocked every RPC on the shard until it moved on; it now picks matching keys under the read lock and cleans only those in bounded write-lock batches, so the exclusive hold is capped by batch size instead of shard size ([#3593](https://github.com/kvcache-ai/Mooncake/pull/3593)). The fifth fixed an over-reported prefix match in the conductor: `PrefixCacheTable::Query` turned matched blocks into tokens as if every block were full, but the SGLang hash chain deliberately ends in a partial block, so a 40-token prompt with `block_size = 16` came back as a 48-token match, past the end of the prompt; a router trusting that length skipped recomputing KV slots written by a different request, which surfaced as off-topic generation. The match is now clamped to the queried token count, leaving the vLLM full-block chain bit-for-bit unchanged ([#4164](https://github.com/kvcache-ai/Mooncake/pull/4164)). The sixth stopped a host crash: when `RealClient` setup failed, `client_` stayed null, and the eight batch entry points LMCache uses for bulk KV I/O (`batch_get_buffer`, `batch_put_from` and the rest) ran their metrics observer unconditionally, dereferencing the null client and taking down the vLLM process. The observer is now gated on a live client, so callers get the per-key errors the internal path already produced ([#4633](https://github.com/kvcache-ai/Mooncake/pull/4633)). The seventh moved an Ascend HCCS failure to where it belongs: NPU device memory is shared with peers through IPC handles exported on 2 MiB pages, but `AscendDirectTransport` accepted any base address at registration, so a torch_npu allocator sub-block 512 bytes off alignment registered fine and then broke the whole channel at connect time. Remote-accessible device memory that is not 2 MiB-aligned is now rejected at registration with `ERR_INVALID_ARGUMENT` and a log line naming the address and required alignment, before any state is created ([#4903](https://github.com/kvcache-ai/Mooncake/pull/4903)).
 
 </details>
 
@@ -459,6 +463,13 @@ The **durable-execution engine** for resilient services and agents - the HTTP in
 <summary><b>LMCache</b> &nbsp;<code>LMCache/LMCache</code></summary>
 
 The **KV-cache layer** that plugs into vLLM to store and reuse prefix caches across requests and nodes - when an async lookup timed out, `lookup_cache()` returned a miss and dropped the request's `first_lookup_time` entry but left its status pending, so when vLLM asked again for the same id (which it does with nixl + async loading) the pending branch indexed the deleted entry and the `KeyError` took the vLLM worker down. A missing entry is now treated like an expired one, so the request reports a cache miss and vLLM recomputes instead of crashing, with a regression test that drives the timeout then re-query sequence through the public interface ([#3766](https://github.com/LMCache/LMCache/pull/3766)).
+
+</details>
+
+<details>
+<summary><b>Lance</b> &nbsp;<code>lance-format/lance</code></summary>
+
+The **open lakehouse format** for multimodal AI data. After a metadata-only column addition, where a new all-null column exists in the schema but not in the existing data files, compaction's binary-copy path must not copy files whose physical column mapping no longer matches the evolved schema. Added regression coverage across Lance file versions V2.0 through V2.3: `ForceBinaryCopy` rejects those source files, while `TryBinaryCopy` falls back to re-encoding, persists the full field and column mapping, and keeps every row and existing column intact with the new column reading as null. Also updated the Python scalar-index compatibility matrix so `15.0.0b2` is the first reader expected to use the row-address index instead of a full scan ([#8479](https://github.com/lance-format/lance/pull/8479)).
 
 </details>
 
