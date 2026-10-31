@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Prajjwal Chittori - Backend Engineer, Crypto and Payments, Creator">
-  <title>Prajjwal Chittori — Backend Engineer · Crypto &amp; Payments · Creator</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Prajjwal Chittori - Payments Engineer, Agents and Money, Creator">
+  <title>Prajjwal Chittori — Payments Engineer · Agents &amp; Money · Creator</title>
   <rect width="1000" height="300" fill="#111110"/>
 
   <!-- accent rule, top left -->
@@ -7,7 +7,7 @@
 
   <!-- eyebrow -->
   <text x="64" y="88" font-family="ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace"
-        font-size="13" letter-spacing="2.6" fill="#ff4d5e">BACKEND ENGINEER · CRYPTO × PAYMENTS · CREATOR</text>
+        font-size="13" letter-spacing="2.6" fill="#ff4d5e">PAYMENTS ENGINEER · AGENTS × MONEY · CREATOR</text>
 
   <!-- wordmark -->
   <text x="60" y="184" font-family="Georgia,'Iowan Old Style','Palatino Linotype',Palatino,'Times New Roman',serif"

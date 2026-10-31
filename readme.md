@@ -3,7 +3,7 @@
 <a href="https://prajj.com/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/swiss/masthead-dark.svg">
-    <img src="assets/swiss/masthead-light.svg" width="100%" alt="Prajjwal Chittori - Backend Engineer, Crypto and Payments, Creator">
+    <img src="assets/swiss/masthead-light.svg" width="100%" alt="Prajjwal Chittori - Payments Engineer, Agents and Money, Creator">
   </picture>
 </a>
 
@@ -68,11 +68,15 @@
 
 ## About
 
-Crypto and payments backend engineer. ex-Stader Labs (founding engineer → $500M+ TVL liquid staking), ex-Visa cross-border payments and stablecoins, now Senior Backend Engineer at [ether.fi](https://www.ether.fi/) building the bridge between a Visa card and on-chain settlement. I fix bugs in the infrastructure everybody else builds on - blockchain (Optimism, revm, alloy, celestia-node, ethrex) and AI inference (vLLM, SGLang, candle, mistral.rs, Mooncake, Ray). On the side I explain philosophy to 22,000+ people in 45-second videos.
+Payments engineer. I built money rails for humans: cross-border payments and stablecoins at Visa, liquid staking at Stader Labs (founding engineer → $500M+ TVL), and now Visa card settlement against on-chain vaults at [ether.fi](https://www.ether.fi/).
+
+**Now:** working out how AI agents will hold, spend and settle money. Authorization, disputes, KYC and liability all assume a human clicked "pay". Soon nobody clicks anything. Someone still eats the chargeback. Probably you.
+
+I also fix bugs in the infrastructure everybody else builds on - blockchain (Optimism, revm, alloy, celestia-node, ethrex) and AI inference (vLLM, SGLang, candle, mistral.rs, Mooncake, Ray). On the side I explain philosophy to 22,000+ people in 45-second videos. The agents haven't subscribed yet.
 
 **Who I'd like to hear from**
 
-People building inference engines, payment rails, and anything with a hard correctness invariant in it.
+People building payment rails for AI agents: agent checkout, stablecoin settlement, and who is liable when software spends money. Also inference engines, and anything with a hard correctness invariant in it. Or something like that.
 
 <table>
 <tr>
@@ -648,7 +652,7 @@ Achieved **Codeforces Expert** during university (pre-2022, before AI coding ass
 
 <div align="center">
 
-<sub><a href="mailto:prajjwalchittoriwork@gmail.com">prajjwalchittoriwork@gmail.com</a> &nbsp;·&nbsp; <a href="https://prajj.com/">prajj.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/prajjwal-chittori/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://www.instagram.com/prajjwalsinghchittori">Instagram</a> &nbsp;·&nbsp; <a href="https://www.youtube.com/@prajjwalsinghchittori">YouTube</a> &nbsp;·&nbsp; <a href="https://prajj.com/fintech/">Top 50 Fintech</a></sub>
+<sub><a href="mailto:prajjwalchittoriwork@gmail.com">prajjwalchittoriwork@gmail.com</a> &nbsp;·&nbsp; <a href="https://prajj.com/">prajj.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/prajjwal-chittori/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://x.com/pdurdenj">X</a> &nbsp;·&nbsp; <a href="https://www.instagram.com/prajjwalsinghchittori">Instagram</a> &nbsp;·&nbsp; <a href="https://www.youtube.com/@prajjwalsinghchittori">YouTube</a> &nbsp;·&nbsp; <a href="https://prajj.com/fintech/">Top 50 Fintech</a></sub>
 
 <sub>Hand-coded in a text editor. <a href="https://prajj.com/retro.html">The 1999 edition still exists.</a></sub>
 
