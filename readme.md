@@ -70,7 +70,7 @@
 
 Payments engineer. I built money rails for humans: cross-border payments and stablecoins at Visa, liquid staking at Stader Labs (founding engineer → $500M+ TVL), and now Visa card settlement against on-chain vaults at [ether.fi](https://www.ether.fi/).
 
-**Now:** working out how AI agents will hold, spend and settle money. Authorization, disputes, KYC and liability all assume a human clicked "pay". Soon nobody clicks anything. Someone still eats the chargeback. Probably you.
+I'm interested in how AI agents will hold, spend and settle money. Authorization, disputes, KYC and liability all assume a human clicked "pay". Soon nobody clicks anything. Someone still eats the chargeback. Probably you.
 
 I also fix bugs in the infrastructure everybody else builds on - blockchain (Optimism, revm, alloy, celestia-node, ethrex) and AI inference (vLLM, SGLang, candle, mistral.rs, Mooncake, Ray). On the side I explain philosophy to 22,000+ people in 45-second videos. The agents haven't subscribed yet.
 
