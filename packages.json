@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-03T14:19:01.267Z",
-  "total": 11402,
-  "npm": 4239,
+  "updated": "2026-11-04T14:36:01.045Z",
+  "total": 11410,
+  "npm": 4247,
   "pypi": 7163,
   "packages": {
     "cmd-risk": {
-      "npm": 686,
+      "npm": 687,
       "pypi": 634
     },
     "cassette-fn": {
@@ -21,11 +21,11 @@
       "pypi": 649
     },
     "prompt-cache-fit": {
-      "npm": 338,
+      "npm": 340,
       "pypi": 583
     },
     "jevkit": {
-      "npm": 1972,
+      "npm": 1977,
       "pypi": 3424
     }
   }
