@@ -43,11 +43,11 @@
 
 **What's New**
 
+<sub>NOV 2026</sub> &nbsp; Unquantized MTP experts kept unquantized under AutoGPTQ in [vLLM #49539](https://github.com/vllm-project/vllm/pull/49539)
+
 <sub>NOV 2026</sub> &nbsp; An HA applied-sequence gauge synced with recovered standby state in [Mooncake #4402](https://github.com/kvcache-ai/Mooncake/pull/4402)
 
 <sub>OCT 2026</sub> &nbsp; Unaligned HCCS device memory rejected at registration in [Mooncake #4903](https://github.com/kvcache-ai/Mooncake/pull/4903)
-
-<sub>OCT 2026</sub> &nbsp; Compaction after a metadata-only column add covered in [Lance #8479](https://github.com/lance-format/lance/pull/8479)
 
 
 <sub>PREPRINT</sub> &nbsp; [Cache-aware request planning for black-box LLM APIs](https://doi.org/10.5281/zenodo.21386594)
@@ -213,11 +213,11 @@ are on [prajj.com](https://prajj.com/#oss).*
 
 <a name="opensource"></a>
 
-## Open Source &nbsp;<sub>34 merged · 20 projects</sub>
+## Open Source &nbsp;<sub>35 merged · 20 projects</sub>
 
 | # | Project | Merged | # | Project | Merged |
 |---|---|---|---|---|---|
-| 1 | [vLLM](https://github.com/vllm-project/vllm) | 1 | 5 | [Ray](https://github.com/ray-project/ray) | 2 |
+| 1 | [vLLM](https://github.com/vllm-project/vllm) | 2 | 5 | [Ray](https://github.com/ray-project/ray) | 2 |
 | 2 | [Mooncake](https://github.com/kvcache-ai/Mooncake) | 8 | 6 | [Optimism](https://github.com/ethereum-optimism/optimism) | 1 |
 | 3 | [candle](https://github.com/huggingface/candle) | 2 | 7 | [revm](https://github.com/bluealloy/revm) | 1 |
 | 4 | [SGLang](https://github.com/sgl-project/sglang) | 1 | 8 | [Meilisearch](https://github.com/meilisearch/meilisearch) | 1 |
@@ -229,7 +229,7 @@ are on [prajj.com](https://prajj.com/#oss).*
 <td align="center" width="25%">
 <a href="https://github.com/vllm-project/vllm"><img src="https://github.com/vllm-project.png?size=96" width="44" height="44" alt="vLLM"><br><b>vLLM</b></a><br>
 <img src="https://img.shields.io/github/stars/vllm-project/vllm?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
-<sub>1 merged</sub>
+<sub>2 merged</sub>
 </td>
 <td align="center" width="25%">
 <a href="https://github.com/meilisearch/meilisearch"><img src="https://github.com/meilisearch.png?size=96" width="44" height="44" alt="Meilisearch"><br><b>Meilisearch</b></a><br>
@@ -340,7 +340,7 @@ are on [prajj.com](https://prajj.com/#oss).*
 <details>
 <summary><b>vLLM</b> &nbsp;<code>vllm-project/vllm</code></summary>
 
-The standard high-throughput **LLM inference & serving engine** - build-correctness fix in the precompiled-flag test suite ([#44942](https://github.com/vllm-project/vllm/pull/44942)).
+The standard high-throughput **LLM inference & serving engine** - build-correctness fix in the precompiled-flag test suite ([#44942](https://github.com/vllm-project/vllm/pull/44942)). The second fixed loading of partially quantized GPTQ MoE checkpoints: GPTQ quantizations of Qwen3.5-35B-A3B leave the MTP drafter layer's experts in bf16, and `AutoGPTQConfig` already records which modules the checkpoint actually quantized in `modules_in_block_to_quantize`, but only the linear path consulted it. The `RoutedExperts` branch of `get_quant_method()` never did, so the drafter was given a WNA16 MoE method that allocated `w2_qweight` while the checkpoint supplied a plain `down_proj.weight`, and loading died with *'RoutedExperts' object has no attribute 'w2_weight'*. A new `is_moe_layer_gptq_quantized()` normalizes each listed per-expert projection to its `...experts` parent and matches that against the layer prefix; a layer whose experts are not listed now gets `UnquantizedFusedMoEMethod` before the Marlin support check, covering both the Marlin path and the `MoeWNA16Config` fallback that ROCm always takes, and negative `dynamic` rules are applied at the same point. Configs that list no expert module at all keep the old behaviour ([#49539](https://github.com/vllm-project/vllm/pull/49539)).
 
 </details>
 
