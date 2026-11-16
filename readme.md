@@ -43,11 +43,11 @@
 
 **What's New**
 
+<sub>NOV 2026</sub> &nbsp; The matched network reported in settlement-failure receipts in [x402 #4261](https://github.com/x402-foundation/x402/pull/4261)
+
 <sub>NOV 2026</sub> &nbsp; Unquantized MTP experts kept unquantized under AutoGPTQ in [vLLM #49539](https://github.com/vllm-project/vllm/pull/49539)
 
 <sub>NOV 2026</sub> &nbsp; An HA applied-sequence gauge synced with recovered standby state in [Mooncake #4402](https://github.com/kvcache-ai/Mooncake/pull/4402)
-
-<sub>OCT 2026</sub> &nbsp; Unaligned HCCS device memory rejected at registration in [Mooncake #4903](https://github.com/kvcache-ai/Mooncake/pull/4903)
 
 
 <sub>PREPRINT</sub> &nbsp; [Cache-aware request planning for black-box LLM APIs](https://doi.org/10.5281/zenodo.21386594)
@@ -213,7 +213,7 @@ are on [prajj.com](https://prajj.com/#oss).*
 
 <a name="opensource"></a>
 
-## Open Source &nbsp;<sub>35 merged · 20 projects</sub>
+## Open Source &nbsp;<sub>36 merged · 21 projects</sub>
 
 | # | Project | Merged | # | Project | Merged |
 |---|---|---|---|---|---|
@@ -334,6 +334,16 @@ are on [prajj.com](https://prajj.com/#oss).*
 <img src="https://img.shields.io/github/stars/lance-format/lance?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
 <sub>1 merged</sub>
 </td>
+</tr>
+<tr>
+<td align="center" width="25%">
+<a href="https://github.com/x402-foundation/x402"><img src="https://github.com/x402-foundation.png?size=96" width="44" height="44" alt="x402"><br><b>x402</b></a><br>
+<img src="https://img.shields.io/github/stars/x402-foundation/x402?style=flat-square&label=%E2%98%85&labelColor=44403c&color=78716c&cacheSeconds=21600" alt="stars"><br>
+<sub>1 merged</sub>
+</td>
+<td align="center" width="25%"></td>
+<td align="center" width="25%"></td>
+<td align="center" width="25%"></td>
 </tr>
 </table>
 
@@ -474,6 +484,13 @@ The **KV-cache layer** that plugs into vLLM to store and reuse prefix caches acr
 <summary><b>Lance</b> &nbsp;<code>lance-format/lance</code></summary>
 
 The **open lakehouse format** for multimodal AI data. After a metadata-only column addition, where a new all-null column exists in the schema but not in the existing data files, compaction's binary-copy path must not copy files whose physical column mapping no longer matches the evolved schema. Added regression coverage across Lance file versions V2.0 through V2.3: `ForceBinaryCopy` rejects those source files, while `TryBinaryCopy` falls back to re-encoding, persists the full field and column mapping, and keeps every row and existing column intact with the new column reading as null. Also updated the Python scalar-index compatibility matrix so `15.0.0b2` is the first reader expected to use the row-address index instead of a full scan ([#8479](https://github.com/lance-format/lance/pull/8479)).
+
+</details>
+
+<details>
+<summary><b>x402</b> &nbsp;<code>x402-foundation/x402</code></summary>
+
+The open **payments protocol built on HTTP 402** - the Python MCP payment wrappers match an incoming payment against the server's `accepts` list with `find_matching_requirements()` and verify and settle against the matched requirement, but the sync and async helpers that build the settlement-failure receipt, `_create_settlement_failed_result_sync` and `_create_settlement_failed_result_async`, still wrote `config.accepts[0].network` whenever there was no facilitator `SettleResponse` to report: a settlement exception or a metering failure. So a payment that matched the second entry on `eip155:1` and then failed settlement came back in `x402/payment-response` as a failure on `eip155:84532`, and a client reading the receipt saw the wrong chain. Both helpers now take a keyword-only `network` argument and every call site without a settle response passes `payment_requirements.network`, which is what the FastMCP wrapper already did; the first-entry fallback stays for callers that pass nothing, with sync and async regression tests that fail settlement on a non-first entry ([#4261](https://github.com/x402-foundation/x402/pull/4261)).
 
 </details>
 
