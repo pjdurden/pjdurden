@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20T15:29:44.026Z",
-  "total": 12306,
-  "npm": 4507,
+  "updated": "2026-11-21T14:41:23.511Z",
+  "total": 12309,
+  "npm": 4510,
   "pypi": 7799,
   "packages": {
     "cmd-risk": {
@@ -21,11 +21,11 @@
       "pypi": 714
     },
     "prompt-cache-fit": {
-      "npm": 374,
+      "npm": 375,
       "pypi": 652
     },
     "jevkit": {
-      "npm": 2055,
+      "npm": 2057,
       "pypi": 3675
     }
   }
